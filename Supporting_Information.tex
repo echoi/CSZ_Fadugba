@@ -82,8 +82,8 @@
 % Placeholders for figures and tables appear after the \end{article} command, after references.
 % DO NOT USE \psfrag or \subfigure commands.
 %
- \usepackage{graphicx}
-
+\usepackage{rotating}
+\usepackage{graphicx}
 
 
 %  Uncomment the following command to allow illustrations to print
@@ -221,6 +221,7 @@ This supplement presents the resolution test in our study, the derivation of the
 \vspace{10mm} %5mm vertical space
 
 \noindent\textbf{Resolution Test}
+\vspace{10mm}
 
 We create stress models with element sizes ranging from 1 to 8 km to examine the effect of mesh resolution on $\sigma_{D}$ and $\phi_{\max}$ using the SFR25 domain geometry. We perform the resolution test by comparing the displacement components and differential stress in the entire domain in each model with respect to the model with element size of 1 km. We determine the errors in differential stress, for example, using the equation:
 %
@@ -231,49 +232,44 @@ We create stress models with element sizes ranging from 1 to 8 km to examine the
 %
 where k represents the index for data points and $ E\sigma_{D}^{4km} $ is the error in $\sigma_{D}$ in model with element size of 4 km relative to 1 km.
 
-
-\vspace{5mm} %5mm vertical space
-
-\begin{sidewaysfigure}
+This resolution test shows that the error generally increases with mesh resolution (Fig. \ref{S1}). %For example, the model has an error of about 0.02 and 0.16 in the $\sigma_{D}$ and $\phi_{\max}$ in element size of 2 km relative to 1 km, respectively (Fig. \ref{S2}). The error values increase to 0.06 and 0.26 when the element size is 4 km. 
+The errors in displacement components and differential stress in models with element sizes of 2 km is less than 5 \% of the corresponding values in the model with 1 km resolution. The errors are less than 10 \% for models with element sizes below 4 km. In our study, we will use an element size of 2 km for our fault models. However, due to expensive computation time, we will use an element size of 4 km to evaluate model parameters, e.g., coefficient of friction.
+%
+\begin{figure}[h!]
 \setfigurenum{S1}
 \includegraphics[width=25pc]{Figures/res_test_CSZ.png}
 \caption{Errors in displacement components and differential stress ($\sigma_{D}$) for models with element sizes ranging from 2 to 8 km relative to a model with 1 km element size.}
 \label{S1}
-\end{sidewaysfigure}
-
-\vspace{10mm} %5mm vertical space
-
-This resolution test shows that the error generally increases with mesh resolution (Fig. \ref{S1}). %For example, the model has an error of about 0.02 and 0.16 in the $\sigma_{D}$ and $\phi_{\max}$ in element size of 2 km relative to 1 km, respectively (Fig. \ref{S2}). The error values increase to 0.06 and 0.26 when the element size is 4 km. 
-The errors in displacement components and differential stress in models with element sizes of 2 km is less than 5 \% of the corresponding values in the model with 1 km resolution. The errors are less than 10 \% for models with element sizes below 4 km. In our study, we will use an element size of 2 km for our fault models. However, due to expensive computation time, we will use an element size of 4 km to evaluate model parameters, e.g., coefficient of friction.
+\end{figure}
 
 \vspace{10mm} %5mm vertical space
 
 \noindent\textbf{Stopping criterion of differential stress at 10 km depth}
 \vspace{10mm} %5mm vertical space
 
-\begin{sidewaysfigure}
+\begin{figure}[ht]
 \setfigurenum{S2}
 \includegraphics[width=25pc]{Figures/Calc_diff_stress.png}
 \caption{Determining the differential stress for stopping criterion.}
 \label{S2}
-\end{sidewaysfigure}
+\end{figure}
 
 \vspace{5mm} %5mm vertical space
 
-From $\Delta$ABC,
+From $\Delta$ABC in Fig.~\ref{S2},
 \[
- \sin(\alpha) = \frac{\sigma_{1}-\sigma_{3}}{2}/[\frac{250}{3} + \frac{\sigma_{1}+\sigma_{3}}{2}],
+ \sin \alpha = \frac{\sigma_{1}-\sigma_{3}}{2} / \left[\frac{250}{3} + \frac{\sigma_{1}+\sigma_{3}}{2} \right],
 \]
 %
 \[
- \sin(\alpha) = \frac{3(\sigma_{1}-\sigma_{3})}{3(\sigma_{1}+\sigma_{3})+500},
+ \sin \alpha = \frac{3(\sigma_{1}-\sigma_{3})}{3(\sigma_{1}+\sigma_{3})+500},
 \]
 %
 \[
- \sigma_{1} = \frac{\sigma_{3}+[\sigma_{3}+\frac{500}{3}]\times \sin(\alpha)}{1-\sin(\alpha)},
+ \sigma_{1} = \frac{\sigma_{3}+[\sigma_{3}+\frac{500}{3}] \sin(\alpha)}{1-\sin \alpha},
 \]
 
-Based on Byerlee's law, $\tau$  = 50 MPa + 0.6$\,\sigma_n$, under the assumption of absence of pore-fluid pressure along the rift faults, $\tan(\alpha) = 0.6$, hence, $\sin(\alpha)= 0.5145$. $\sigma_{3}$ corresponds to the lithostatic stress, and assuming it is equal to 250 MPa at 10 km depth, gives $\sigma_{1}$ = 956.4882 MPa. Hence, the differential stress at 10 km depth with no pore-fluid pressure ($\sigma_{D} = \sigma_{1} - \sigma_{3})$ is 706.4882 MPa. 
+Based on Byerlee's law, $\tau$  = 50 MPa + 0.6$\,\sigma_n$, under the assumption of absence of pore-fluid pressure along the rift faults, $\tan \alpha = 0.6$, hence, $\sin \alpha = 0.5145$. $\sigma_{3}$ corresponds to the lithostatic stress, and assuming it is equal to 250 MPa at 10 km depth, gives $\sigma_{1}$ = 956.4882 MPa. Hence, the differential stress at 10 km depth with no pore-fluid pressure ($\sigma_{D} = \sigma_{1} - \sigma_{3})$ is 706.4882 MPa. 
 
 \vspace{10mm} %5mm vertical space
 
@@ -282,12 +278,12 @@ Based on Byerlee's law, $\tau$  = 50 MPa + 0.6$\,\sigma_n$, under the assumption
 The percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$), and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) relative to the reference model (SNFR25) for models with different impact structure-crust density ratio.  The maps show no significant change with density ratio. We use density ratio of 10\% in this study to model a realistic damaged crustal rock. 
 \vspace{10mm} %5mm vertical space
 
-\begin{sidewaysfigure}
+\begin{figure}[ht]
 \setfigurenum{S3}
 \includegraphics[width=25pc]{Figures/effect_of_density.png}
 \caption{Effect of impact structure-crust density ratio on the $\Delta\sigma_{D}^{\prime}$, $\phi_{\max}$ and $\Delta \phi_{\max}^{\prime}$ at 10 km depth. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{S3}A. The outline of the impact structure is represented as black circle. Each figure is 70 $\times$ 70 km.}
 \label{S3}
-\end{sidewaysfigure}
+\end{figure}
 
 \vspace{10mm} %5mm vertical space
 
@@ -301,12 +297,12 @@ Figure \ref{S4} shows that $\mu$ is an essential fault parameter needed to expla
 
 \vspace{10mm} %5mm vertical space
 
-\begin{sidewaysfigure}
+\begin{figure}[ht]
 \setfigurenum{S4}
 \includegraphics[width=25pc]{Figures/SD70R25C_S2.png}
 \caption{Same as \ref{S3} but for the models with different cohesion values.}
 \label{S4}
-\end{sidewaysfigure}
+\end{figure}
 
 \vspace{10mm} %5mm vertical space
 
@@ -316,12 +312,12 @@ The percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_
 
 \vspace{10mm} %5mm vertical space
 
-\begin{sidewaysfigure}
+\begin{figure}[ht]
 \setfigurenum{S5}
 \includegraphics[width=25pc]{Figures/SD70R100_S1.png}
 \caption{Percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$), and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) relative to the SNFR25 at various depths depths from the SD70R100 model. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{S3}A. Each figure is 70 $\times$ 70 km.}
 \label{S5}
-\end{sidewaysfigure}
+\end{figure}
 
 \vspace{10mm} %5mm vertical space
 %\pagebreak
@@ -333,16 +329,16 @@ We test the response of the model results with different impact structure-crust 
 
 \vspace{10mm} %5mm vertical space
 
-\begin{sidewaysfigure}
+\begin{figure}[ht]
 \setfigurenum{S6}
 \includegraphics[width=25pc]{Figures/effect_of_moduli_ratio.png}
 \caption{Same as \ref{S3} but for the models with different impact structure-crust moduli ratio.}
 \label{S6}
-\end{sidewaysfigure}
+\end{figure}
 
 \vspace{10mm} %5mm vertical space
 
-%\pagebreak
+\pagebreak
 
 
 
@@ -522,7 +518,6 @@ We test the response of the model results with different impact structure-crust 
 %\caption{Time of the Transition Between Phase 1 and Phase 2\tablenotemark{a}}
 %\end{table}
 
-
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -671,11 +666,11 @@ Math coded inside display math mode \[ ...\]
 % For tables and figures, add \usepackage{rotating} to the paper and add the rotating.sty file to the folder.
 % AGU prefers the use of {sidewaystable} over {landscapetable} as it causes fewer problems.
 %
-% \begin{sidewaysfigure}
+% \begin{figure}
 % \includegraphics[width=20pc]{samplefigure.eps}
 % \caption{caption here}
 % \label{label_here}
-% \end{sidewaysfigure}
+% \end{figure}
 %
 %
 %
