@@ -1,0 +1,754 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Aagaard%
+, Kientz%
+, Knepley%
+, Strand%
+\BCBL {}\ \BBA {} Williams%
+}{%
+Aagaard%
+, Kientz%
+\BCBL {}\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+c2015}
+\APACinsertmetastar {%
+c2015}%
+\begin{APACrefauthors}%
+Aagaard, B.%
+, Kientz, S.%
+, Knepley, M.%
+, Strand, L.%
+\BCBL {}\ \BBA {} Williams, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{PyLith User Manual, Version 2.1.0}} {{PyLith User
+  Manual, Version 2.1.0}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational Infrastructure of Geodynamic, Davis,
+  CA}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aagaard%
+, Williams%
+\BCBL {}\ \BBA {} Knepley%
+}{%
+Aagaard%
+, Williams%
+\BCBL {}\ \BBA {} Knepley%
+}{%
+{\protect \APACyear {2015}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+Aagard2015}
+\APACinsertmetastar {%
+Aagard2015}%
+\begin{APACrefauthors}%
+Aagaard, B.%
+, Williams, C.%
+\BCBL {}\ \BBA {} Knepley, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{PyLith v2.1.0 [software]}} {{PyLith v2.1.0
+  [software]}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational Infrastructure for Geodynamics}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aagaard%
+, Williams%
+\BCBL {}\ \BBA {} Knepley%
+}{%
+Aagaard%
+, Williams%
+\BCBL {}\ \BBA {} Knepley%
+}{%
+{\protect \APACyear {2015}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+matthew2015}
+\APACinsertmetastar {%
+matthew2015}%
+\begin{APACrefauthors}%
+Aagaard, B.%
+, Williams, C.%
+\BCBL {}\ \BBA {} Knepley, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{PyLith v2.1.0 [software]}} {{PyLith v2.1.0
+  [software]}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computational Infrastructure for Geodynamics}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Anglin%
+}{%
+Anglin%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+anglin1984}
+\APACinsertmetastar {%
+anglin1984}%
+\begin{APACrefauthors}%
+Anglin, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1984}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Seismicity and faulting in the Charlevoix zone of the
+  St. Lawrence Valley.}} {{Seismicity and faulting in the Charlevoix zone of
+  the St. Lawrence Valley.}}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the Seismological Society of America}{74
+  (2): 595–603}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Baird%
+, McKinnon%
+\BCBL {}\ \BBA {} Godin%
+}{%
+Baird%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Baird_2010}
+\APACinsertmetastar {%
+Baird_2010}%
+\begin{APACrefauthors}%
+Baird, A\BPBI F.%
+, McKinnon, S\BPBI D.%
+\BCBL {}\ \BBA {} Godin, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Relationship between structures stress and seismicity
+  in the Charlevoix seismic zone revealed by 3-D geomechanical models:
+  Implications for the seismotectonics of continental interiors}}
+  {{Relationship between structures stress and seismicity in the Charlevoix
+  seismic zone revealed by 3-D geomechanical models: Implications for the
+  seismotectonics of continental interiors}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research}{115}{B11}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2010jb007521} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Byerlee%
+}{%
+Byerlee%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+Byerlee_1978}
+\APACinsertmetastar {%
+Byerlee_1978}%
+\begin{APACrefauthors}%
+Byerlee, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Friction of rocks}} {{Friction of rocks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pure and Applied Geophysics
+  {PAGEOPH}}{116}{4-5}{615--626}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/bf00876528} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chen%
+\ \BBA {} Chen%
+}{%
+Chen%
+\ \BBA {} Chen%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+ChenChen18}
+\APACinsertmetastar {%
+ChenChen18}%
+\begin{APACrefauthors}%
+Chen, S.%
+\BCBT {}\ \BBA {} Chen, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On the Reactivation of the Pre-Existing Normal Fault}
+  {On the reactivation of the pre-existing normal fault}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{World Journal of Mechanics}{8}{5}{210-217}.
+\newblock
+\begin{APACrefDOI} \doi{10.4236/wjm.2018.85016} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fereidoni%
+\ \BBA {} Atkinson%
+}{%
+Fereidoni%
+\ \BBA {} Atkinson%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Fereidoni2014}
+\APACinsertmetastar {%
+Fereidoni2014}%
+\begin{APACrefauthors}%
+Fereidoni, A.%
+\BCBT {}\ \BBA {} Atkinson, G\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Correlation between Coulomb Stress Changes Imparted by
+  Historic Earthquakes and Current Seismicity in Charlevoix Seismic Zone,
+  Eastern Canada} {Correlation between coulomb stress changes imparted by
+  historic earthquakes and current seismicity in charlevoix seismic zone,
+  eastern canada}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Seismological Research Letters}{86}{1}{272}.
+\newblock
+\begin{APACrefDOI} \doi{10.1785/0220140134} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gardner%
+, Gardner%
+\BCBL {}\ \BBA {} Gregory%
+}{%
+Gardner%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1974}}%
+}]{%
+Gardner_1974}
+\APACinsertmetastar {%
+Gardner_1974}%
+\begin{APACrefauthors}%
+Gardner, G\BPBI H\BPBI F.%
+, Gardner, L\BPBI W.%
+\BCBL {}\ \BBA {} Gregory, A\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{{Formation} {velocity} {and}
+  {density}{\textemdash}{the} {diagnostic} {basics} {for} {stratigraphic}
+  {traps}}} {{{Formation} {velocity} {and} {density}{\textemdash}{the}
+  {diagnostic} {basics} {for} {stratigraphic} {traps}}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{GEOPHYSICS}}{39}{6}{770--780}.
+\newblock
+\begin{APACrefDOI} \doi{10.1190/1.1440465} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hurd%
+\ \BBA {} Zoback%
+}{%
+Hurd%
+\ \BBA {} Zoback%
+}{%
+{\protect \APACyear {2012}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+Hurd_Zoback2012b}
+\APACinsertmetastar {%
+Hurd_Zoback2012b}%
+\begin{APACrefauthors}%
+Hurd, O.%
+\BCBT {}\ \BBA {} Zoback, M\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Intraplate earthquakes, regional stress and fault
+  mechanics in the Central and Eastern U.S. and Southeastern Canada}
+  {Intraplate earthquakes, regional stress and fault mechanics in the central
+  and eastern u.s. and southeastern canada}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tectonophysics}{581}{}{182 - 192}.
+\newblock
+\APACrefnote{Crustal Stresses, Fractures, and Fault Zones: The Legacy of
+  Jacques Angelier}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.tecto.2012.04.002}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hurd%
+\ \BBA {} Zoback%
+}{%
+Hurd%
+\ \BBA {} Zoback%
+}{%
+{\protect \APACyear {2012}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Hurd_Zoback_2012}
+\APACinsertmetastar {%
+Hurd_Zoback_2012}%
+\begin{APACrefauthors}%
+Hurd, O.%
+\BCBT {}\ \BBA {} Zoback, M\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Regional Stress Orientations and Slip Compatibility of
+  Earthquake Focal Planes in the New Madrid Seismic Zone} {Regional stress
+  orientations and slip compatibility of earthquake focal planes in the new
+  madrid seismic zone}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Seismological Research Letters}{83}{4}{672}.
+\newblock
+\begin{APACrefDOI} \doi{10.1785/0220110122} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lamontagne%
+}{%
+Lamontagne%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+lamontagne1998}
+\APACinsertmetastar {%
+lamontagne1998}%
+\begin{APACrefauthors}%
+Lamontagne, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{New and revised earthquake focal mechanisms for the
+  Charlevoix Seismic Zone, Canada}} {{New and revised earthquake focal
+  mechanisms for the Charlevoix Seismic Zone, Canada}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geological Survey of Canada. Open File}{OF3556}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lamontagne%
+}{%
+Lamontagne%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+lamontagne1999}
+\APACinsertmetastar {%
+lamontagne1999}%
+\begin{APACrefauthors}%
+Lamontagne, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Rheological and geological constraints on the
+  earthquake distribution in the Charlevoix Seismic Zone, Québec, Canada}}
+  {{Rheological and geological constraints on the earthquake distribution in
+  the Charlevoix Seismic Zone, Québec, Canada}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geological Survey of Canada. Open File}{D3778}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marone%
+}{%
+Marone%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Marone_Chris}
+\APACinsertmetastar {%
+Marone_Chris}%
+\begin{APACrefauthors}%
+Marone, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fault zone strength and failure criteria} {Fault zone
+  strength and failure criteria}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geophysical Research Letters}{22}{6}{723-726}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/95GL00268} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mazzotti%
+, James%
+, Henton%
+\BCBL {}\ \BBA {} Adams%
+}{%
+Mazzotti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Mazzotti_GPS2005}
+\APACinsertmetastar {%
+Mazzotti_GPS2005}%
+\begin{APACrefauthors}%
+Mazzotti, S.%
+, James, T\BPBI S.%
+, Henton, J.%
+\BCBL {}\ \BBA {} Adams, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{GPS} crustal strain, postglacial rebound, and seismic
+  hazard in eastern North America: The Saint Lawrence valley example} {{GPS}
+  crustal strain, postglacial rebound, and seismic hazard in eastern north
+  america: The saint lawrence valley example}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Solid
+  Earth}{110}{B11}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2004JB003590} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mazzotti%
+\ \BBA {} Townend%
+}{%
+Mazzotti%
+\ \BBA {} Townend%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Mazzotti_2010}
+\APACinsertmetastar {%
+Mazzotti_2010}%
+\begin{APACrefauthors}%
+Mazzotti, S.%
+\BCBT {}\ \BBA {} Townend, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{State of stress in central and eastern North American
+  seismic zones}} {{State of stress in central and eastern North American
+  seismic zones}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Lithosphere}{2}{2}{76--83}.
+\newblock
+\begin{APACrefDOI} \doi{10.1130/l65.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Powell%
+\ \BBA {} Lamontagne%
+}{%
+Powell%
+\ \BBA {} Lamontagne%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Powell_2017}
+\APACinsertmetastar {%
+Powell_2017}%
+\begin{APACrefauthors}%
+Powell, C\BPBI A.%
+\BCBT {}\ \BBA {} Lamontagne, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Velocity models and hypocenter relocations for the
+  Charlevoix Seismic Zone}} {{Velocity models and hypocenter relocations for
+  the Charlevoix Seismic Zone}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Solid
+  Earth}{122}{8}{6685--6702}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2017jb014191} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rondot%
+}{%
+Rondot%
+}{%
+{\protect \APACyear {1971}}%
+}]{%
+Rondot_1971}
+\APACinsertmetastar {%
+Rondot_1971}%
+\begin{APACrefauthors}%
+Rondot, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Impactite of the Charlevoix Structure Quebec, Canada}}
+  {{Impactite of the Charlevoix Structure Quebec, Canada}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research}{76}{23}{5414--5423}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/jb076i023p05414} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rondot%
+}{%
+Rondot%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+RONDOT1994}
+\APACinsertmetastar {%
+RONDOT1994}%
+\begin{APACrefauthors}%
+Rondot, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Recognition of eroded astroblemes} {Recognition of
+  eroded astroblemes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Earth-Science Reviews}{35}{4}{331 - 365}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0012-8252(94)90001-9} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rondot%
+}{%
+Rondot%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+RONDOT_2000}
+\APACinsertmetastar {%
+RONDOT_2000}%
+\begin{APACrefauthors}%
+Rondot, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Charlevoix and Sudbury as gravity-readjusted impact
+  structures} {Charlevoix and sudbury as gravity-readjusted impact
+  structures}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Meteoritics \& Planetary Science}{35}{4}{707-712}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/j.1945-5100.2000.tb01454.x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Somerville%
+, McLaren%
+, Saikai%
+\BCBL {}\ \BBA {} Helmberger%
+}{%
+Somerville%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1990}}%
+}]{%
+Somerville1990}
+\APACinsertmetastar {%
+Somerville1990}%
+\begin{APACrefauthors}%
+Somerville, P\BPBI G.%
+, McLaren, J\BPBI P.%
+, Saikai, C\BPBI K.%
+\BCBL {}\ \BBA {} Helmberger, D\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The 25 November 1988 Saguenay, Quebec, Earthquake:
+  Source Parameters and the Attenuation of Strong Ground Motion}} {{The 25
+  November 1988 Saguenay, Quebec, Earthquake: Source Parameters and the
+  Attenuation of Strong Ground Motion}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the Seismological Society of
+  America}{80}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stevens%
+}{%
+Stevens%
+}{%
+{\protect \APACyear {1980}}%
+}]{%
+Stevens1980}
+\APACinsertmetastar {%
+Stevens1980}%
+\begin{APACrefauthors}%
+Stevens, A\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1980}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Reexamination of some larger La Malbaie, Québec,
+  earthquakes (1924-1978)}} {{Reexamination of some larger La Malbaie, Québec,
+  earthquakes (1924-1978)}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the Seismological Society of
+  America}{70}{2}{529-557}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thomas%
+\ \BBA {} Powell%
+}{%
+Thomas%
+\ \BBA {} Powell%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Thomas_Powell_2017}
+\APACinsertmetastar {%
+Thomas_Powell_2017}%
+\begin{APACrefauthors}%
+Thomas, W\BPBI A.%
+\BCBT {}\ \BBA {} Powell, C\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Necessary Conditions for Intraplate Seismic Zones in
+  North America} {Necessary conditions for intraplate seismic zones in north
+  america}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tectonics}{36}{12}{2903-2917}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/2017TC004502} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vlahovic%
+, Powell%
+\BCBL {}\ \BBA {} Lamontagne%
+}{%
+Vlahovic%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Vlahovic_2003}
+\APACinsertmetastar {%
+Vlahovic_2003}%
+\begin{APACrefauthors}%
+Vlahovic, G.%
+, Powell, C.%
+\BCBL {}\ \BBA {} Lamontagne, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A three-{dimensionalPwave} velocity model for the
+  Charlevoix seismic zone Quebec, Canada}} {{A three-{dimensionalPwave}
+  velocity model for the Charlevoix seismic zone Quebec, Canada}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Solid
+  Earth}{108}{B9}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/2002jb002188} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yu%
+, Liu%
+, Harrington%
+\BCBL {}\ \BBA {} Lamontagne%
+}{%
+Yu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Yu_2016}
+\APACinsertmetastar {%
+Yu_2016}%
+\begin{APACrefauthors}%
+Yu, H.%
+, Liu, Y.%
+, Harrington, R\BPBI M.%
+\BCBL {}\ \BBA {} Lamontagne, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Seismicity along St. Lawrence Paleorift Faults
+  Overprinted by a Meteorite Impact Structure in Charlevoix, Québec, Eastern
+  CanadaSeismicity along St. Lawrence Paleorift Faults Overprinted by a
+  Meteorite Impact Structure in Charlevoix} {Seismicity along st. lawrence
+  paleorift faults overprinted by a meteorite impact structure in charlevoix,
+  québec, eastern canadaseismicity along st. lawrence paleorift faults
+  overprinted by a meteorite impact structure in charlevoix}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bulletin of the Seismological Society of
+  America}{106}{6}{2663}.
+\newblock
+\begin{APACrefDOI} \doi{10.1785/0120160036} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zoback%
+}{%
+Zoback%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+Zoback_1992}
+\APACinsertmetastar {%
+Zoback_1992}%
+\begin{APACrefauthors}%
+Zoback, M\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{First- and second-order patterns of stress in the
+  lithosphere: The World Stress Map Project}} {{First- and second-order
+  patterns of stress in the lithosphere: The World Stress Map Project}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research}{97}{B8}{11703}.
+\newblock
+\begin{APACrefDOI} \doi{10.1029/92jb00132} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
