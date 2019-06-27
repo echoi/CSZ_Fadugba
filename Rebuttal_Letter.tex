@@ -1,0 +1,197 @@
+% Title:    A LaTeX Template For Responses To a Referees' Reports
+% Author:   Petr Zemek <s3rvac@gmail.com>
+% Homepage: https://blog.petrzemek.net/2016/07/17/latex-template-for-responses-to-referees-reports/
+% License:  CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+\documentclass[12pt]{article}
+
+% Allow Unicode input (alternatively, you can use XeLaTeX or LuaLaTeX)
+\usepackage[utf8]{inputenc}
+\usepackage[inline]{trackchanges}
+\usepackage{times}
+
+\usepackage{microtype,xparse,tcolorbox}
+\newenvironment{reviewer-comment }{}{}
+\tcbuselibrary{skins}
+\tcolorboxenvironment{reviewer-comment }{empty,
+  left = 1em, top = 1ex, bottom = 1ex,
+  borderline west = {2pt} {0pt} {black!20},
+}
+\ExplSyntaxOn
+\NewDocumentEnvironment {response} { +m O{black!20} } {
+  \IfValueT {#1} {
+    \begin{reviewer-comment~}
+      \setlength\parindent{2em}
+      \noindent
+      \ttfamily #1
+    \end{reviewer-comment~}
+  }
+  \par\noindent\ignorespaces
+} { \bigskip\par }
+
+\NewDocumentCommand \Reviewer { m } {
+  \section*{Comments~by~Reviewer~#1}
+}
+\ExplSyntaxOff
+\AtBeginDocument{\maketitle\thispagestyle{empty}\noindent}
+
+% You can get probably get rid of these definitions:
+\newcommand\meta[1]{$\langle\hbox{#1}\rangle$}
+\newcommand\PaperTitle[1]{``\textit{#1}''}
+
+%\title{Statement on the Revision of \meta{Paper \#2019JB017831} \\
+%  Based on the Referees' Report}
+%\author{Oluwaseun Idowu Fadugba \and Eunseo Choi \and Christine A. Powell}
+%\date{\today}
+\date{}
+
+
+\begin{document}
+
+\noindent Dear Dr Yehuda Ben-Zion,
+%\add[EC]{[the name of the handling editor]}, 
+\\\vspace{1em}
+
+Thank you for giving us the opportunity to revise our manuscript \PaperTitle{Effects of pre-existing structures on the seismicity of the Charlevoix Seismic Zone}. We also thank the reviewers for the critical assessment and constructive comments on the manuscript. In this submission, you will find our detailed answers to all of the reviewers’ comments, a copy of the revised manuscript with all changes highlighted in color, a copy of the revised manuscript with the changes simply incorporated, and the supplementary material that we would like to provide to the readers.
+
+The following are our detailed responses to the comments by the reviewers:
+
+\Reviewer{\#1}
+
+\begin{response}{The manuscript of Fadugba et al. "Effects of pre-existing structures on the seismicity of the Charlevoix Seismic Zone" introduces a modeling study assessing the stress perturbation due to a specific tectonic structure, that is, a rift system overprinted on the impact crater in Charlevoix Seismic Zone, eastern Canada. The effects of possible factors, including fault geometry, frictional strengths along faults, elastic properties of the crater and the different velocity models, are being discussed by comparing the causal stress perturbations to relocated seismic distributions. They study the combined effects of the impact zone and rift faults, confirm the importance of the two tectonic factors in explaining the stress perturbation, and provide a quantified estimation of the elastic contrast within and outside the impact crater. Overall, I find that their research approach is well designed. While the result is clearly presented, my main concern is how to justify conclusions based on model comparisons with single factor control.}
+\end{response}
+
+\begin{response}{I recommend the authors to justify the assumption of the independency effect of involved factors on stress perturbations, or that they have consistently monotonous effects.}
+    The indepnedency effect, if we understand it correctly, is not assumed but achieved by our experiment design, in which a reference model is compared with a model with only one parameter changed. We also believe our original results were already showing that that the controlled parameters have consistently monotonous effects. However, in this revision, we have run more models so that all the explored parameters have more regular intervals and thus the monotonicity of model responses can be exposed more clearly. For more details about the changes we have made in this regard, please refer to our response right below as well as those to the reviewer's specific comments.
+\end{response}
+
+\begin{response}{Also, I would be curious to know the sensitivity of your model to these factors, so that we will have a rough idea of the model resolution. It will also support your choice of parameter intervals, for example, moduli ratio and $\mu$ (Table 1). Thus, I suggest a moderate revision.}
+
+    We have addressed this concern by running new models, making parameter intervals more regular. The combined set of models not only clearly exhibit the sensitivity but also show that it is a monotonous one. We have justified that the choice of model parameters such as $\mu$, moduli ratio, and have included additional figures in the supplementary information (Figs. S3, S4 and S6) 
+    %\annote[EC]{(Figs. S1-S4 and S6)}{Not all are relevant to this comment. Refer to only those directly relevant.}.
+\end{response}
+
+%\textbf{We addressed the line-by-line comments below.}
+
+
+\begin{response}{1. Line 113: Add a supplementary figure to support your statement of consistent solutions for domain sizes of 1 km and 2 km.}
+  
+We have added Fig. S1 in the supplementary information. 
+    
+\end{response}
+
+\begin{response}{2. Line 116: Introduce the computational efficiency of your model, like how much cores your model requests, how long it takes. You can add this information into Table 1 if it varies much between different models.}
+
+  We have added the computational efficiency of our model in the model geometry section (Lines 125-130) of the manuscript. We did not add the computational efficiency to Table 1 because it does not change significantly among the models except for the SD65R25 model, which took about twice longer to run for the same model time. We do not clearly understand why this model is particularly slow and further analyzing computational efficiency is beyond the scope of this paper.
+  
+  %\add[EC]{, which took about twice longer to run for the same model time.} \annote[EC]{which may be due to the shallower fault dips.}{The shallower fault dips are the difference of SD65R25 from the others but does not directly explain why this model should take much less time. We can go ahead and speculate about possible reasons but it would be just enough to say that we do not clearly understand why this model is particularly slow and further analyzing computational efficiency is beyond the scope of this paper.}
+  %\annote[EC]{except for the SD65R25 model}{This model then needs further explanation why it took a significantly longer or short time}. 
+  %\note[EC]{Is there a reason why you did not follow the reviewer's suggestion to add this into to Table 1?}
+\end{response}
+
+
+\begin{response}{3. Line 131-133: I do not understand why you set your boundary conditions as the differential stress reaches 706 MPa. Do you set a criterion for shear stress somewhere else? Please make it more clear.}
+
+  %\annote[EC]{We agree with the reviewer}{Agree only when you are sure that doing so would not negatively affect your arguments, assumptions or the overall integrity of your paper. Never confess; only justify.} on the high differential stress at seismogenic depth in our study, due to}
+  The differential stress of 706 MPa at 10 km depth is based on Byerlee's law under the assumption of  \add[EC]{$\mu$ equal to XX and} the absence of pore-fluid pressure. The full derivation of this value is now provided in the supplementary information. Shear stress was not considered as a stopping criterion. In addition, we have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 528-538).
+  
+\end{response}
+
+\begin{response}{4. Section 2.3: You did not mention the values of bulk modulus and shear modulus applied in your calculation.}
+
+  PyLith, the modeling software used in this study, internally converts P and S wave velocities and density to bulk and shear moduli. \add[EC]{For readers' reference, however, we now list representative values of elastic moduli in Table 1.}\note[EC]{Seun, please take care of this.}
+\end{response}
+
+\begin{response}{5. Line 154-156: As I said in the main concern, you need to justify the reduction of 10\% from the velocity model to represent the impact crater area, instead of, for example, 2\%, 5\%, or 20\%.}
+
+  We ran extra models to have a series of models from 0 to 20 \% reduction. No significant changes in the model results were found in these models. The 10\% reduction in the density of corresponding crustal rock is to model a \annote[EC]{realistic}{Without further justification or proper citation of supporting evidence, you cannot say this. Support it or remove it.} damaged crustal rock \annote[EC]{(Lines 174-175).}{The main text should be accordingly revised. The point should be that, in all the presented models, the impact structure has elastic moduli reduced by 10 \% relative to the surrounding crust but the model results were insensitive to other amounts of reduction as see in Fig. S3 in the supplementary information.}
+\end{response}
+
+\begin{response}{6. Line 164-165: According to Marone (1995), the assumption of zero cohesion could be valid for the pre-existing fractures sheared at low normal stress. In your models, the fault depth reaches up to 40 km (at least the stress change at 25 km depth is discussed), which is not the case for a low normal stress. It will be helpful to discuss the situation of faults with reasonable cohesive stress values, especially how this influence the fitting of friction coefficient.}
+
+    The faults in our models extend to 40 km but \annote[EC]{slips on them occur only down to about 10 km due to our stopping criterion.}{Correct this if I'm wrong.} Since the non-slipping portion of the faults are irrelevant, the condition of low normal stress is already being satisfied. For reference, however, we have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information.
+\end{response}
+
+\begin{response}{7. Line 226-231: When evaluate the modeling result, I suggest the authors to quantify the fitting between the simulated stress change and the earthquake hypocenters. It will help convincing the readers of preferred model parameters. For example, I do not see it necessarily to prefer the frictional coefficient equals to 0.3 over 0.4 based on Figure 11.}
+
+   We have added a quantitative assessment
+   %\annote[EC]{qualitative assessment}{Why is it still only qualitative? Have you tried one of the ideas I suggested? If none worked, you are supposed to let me know and look at another solution. Unless you have a good reason to ignore the reviewer's suggestion, the editor and the reviewer would be very curious why you didn't follow the suggestion. This is indeed the main reason why I asked if you had run into any trouble while revising the manuscript. Please take care of this and let me know if you need hlep.} \add[OF]{I am sorry it was a typo. I meant quantitative.}
+   of the correlation between the change in differential stress and the observed seismicity \add[OF]{by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\%} without accounting for uncertainty in hypocenter relocation (Line 199-202). We added a discussion on the choice of the friction coefficient in Lines 506-509.
+    %: 1) the change in differential stress maps changes with fault geometry, and we have established an along-strike variation in the fault dips in this study; and 2) the 3D velocity model is very well defined in the upper 5 km depth which may introduced an uncertainty in the hypocenter relocation.
+\end{response}
+
+\begin{response}{8. Line 312: You need to justify the mesh size of 4 km in Section 2.1.}
+
+  \annote[EC]{We have justified}{You cannot simply say like this. Do describe what is the justification here as well.} the mesh size in Section 2.1 (Lines 118-121).
+\end{response}
+
+\begin{response}{9. Line 321-323: It is not sufficient to reject the possibility of positive Coulomb stress change along the entire faults based on limited observation period of seismicity distribution, that is, consider the northern segment as aseismic creeping. Alternatively, it is possible that the northern segment of the fault accumulates the stress loading and has longer time interval to rupture as a seismic asperity. To distinguish these two possibilities, I suggest check the distribution of historical earthquakes, or GPS observations of the fault aseismic slip.}
+
+  \annote[EC]{Some earthquakes occurred at the SW region outside the impact structure, as shown in the updated Fig. 1. However, reexamination of historical earthquakes in the Charlevoix area by Stevens (1980) also supports a finite extent of the observed seismicity in the CSZ.}{This response is not addressing the reviewer's concern. }
+\end{response}
+
+\textbf{Minor and typographic errors} 
+
+\begin{response}{1. Line 35-36: "The impact crater has a radius of 28 km and is 15 km deep." Please add an appropriate reference here.}
+
+  We have added an appropriate reference (Line 39).
+\end{response}
+
+\begin{response}{2. Line 428: Please add a reference to support the implication of these rift faults have varied dip angle along depth.}
+
+  We have added an appropriate reference (Line 436).
+\end{response}
+
+\textbf{Comments on Figures and Tables:}
+
+\begin{response}{1. Mark the crater and faults as a reference in Figures 6, 8 ,10-12, as what you did for Figures 7 and 9. It helps readers to compare between your results.}
+
+  We have marked the crater as a reference in the figures (i.e., Figs. 6, 8, 10-12). We didn't mark the faults so that it won't mask the features and the hypocenters plotted on the maps. The figures are significantly modified by abrupt changes in the vicinity of the rift faults.
+\end{response}
+
+\begin{response}{2. Figure 10(B): Check the last two plots for the change in the orientation of SHmax. It should be the model with no crater reduces the model with no faults (reference model).}
+
+  The figures are similar to those of the SH$_{\max}$ orientation because of the very low SH$_{\max}$ orientation in the corresponding reference model.
+\end{response}
+
+
+
+
+\Reviewer{\#2}
+\begin{response}{Maurice Lamontagne, Geological Survey of Canada
+
+This study is important to better understand the characteristics of the seismicity of the Charlevoix Seismic Zone. It puts to light that it is the combination of the meteor impact structure and the rift faults that determine the positions of most earthquakes. Although the modelling does not explain the whole hypocenter distribution in Charlevoix, it is one step forward in our understanding of the local seismotectonics. I have added a few comments directly in the attached pdf.}
+    We thank the reviewer for the critical assessment, and comments in the attached pdf. We have modified the manuscript accordingly. We have ALSO addressed the comments by providing more explanation in the manuscript with all changes highlighted in color.
+\end{response}
+
+
+\begin{response}{I think that Charlevoix is considered a meteor impact structure more than a crater. Although the difference is sometimes nebulous between the two, I would prefer if the authors referred to the impact structure. Another word that could be used is astrobleme ("star wound"). There are some interesting links that explain the difference.}
+
+  We have changed the words "impact crater" and "crater" to "impact structure" throughout the manuscript.
+\end{response}
+
+\begin{response}{An aspect that may have been missed is the fact that the epicentral map, such as Fig. 1, does not show a complete view of the regional seismicity. The SSW portion of the St. Lawrence River (upstream towards Quebec City) is also active (although not as much as the interior of the astrobleme). The dataset shown is the one of Powell and Lamontagne (2017) which was a selection of events based on their locations within the network of seismograph stations, but for this map view, I suggest that a more complete dataset is presented. The data can be downloaded from the earthquakescanada web site.}
+
+  We have plotted the complete dataset in Fig. 1. We represented the relocated hypocenters of Powell and Lamontagne (2017) as circles and the other earthquakes that are not in the relocated catalog as diamonds.
+\end{response}
+
+\begin{response}{In a couple of places, authors use the expression 'large magnitude earthquakes'... Except for the 1925 M 6.2 earthquake, we are uncertain about the exact position of the 'large' earthquakes in Charlevoix (four other M6+; 1663; 1791, 1860,1870... although 1870 M 6.5 was probably near Ile-aux-Coudres). It would be better to say that the M4+ earthquakes, appear to occur more often in the NE portion of the CSZ. Stevens (1980) also found that some M4+ earthquakes of the period 1924-1980 also occurred at the SE end.}
+
+  We have edited the manuscript accordingly (see Lines 448-450). We have also included the findings of Steven (1980) in our discussion.
+\end{response}
+
+\begin{response}{The authors write that the focal mechanisms of the CSZ were not well defined. I disagree with them. You can check this OF report, which shows that the Quality 'A' mechanisms were well defined by the P first motions. I think that Mazzotti used most of them in his catalog.
+https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?
+path=geoscan/downloade.web&search1=R=209378}
+
+ The focal mechanisms are good, and we suggest that the focal mechanisms can be further constrained using waveform modeling to validate the magnitude of the stress rotation (Lines 561-563).
+\end{response}
+
+\begin{response}{The model assumes an absence of pore-fluid pressure along faults. For this reason, the stress difference used by the authors is very high at seismogenic depth. It is my impression that worldwide, direct measurements and modelling of tectonic stresses suggest that the maximum crustal stress difference has an upper limit of about 100-200 MPa... very different from the 706 MPa suggested by the authors.
+I think that the authors should discuss the possibility that high pore-fluid pressures exist at depth and their possible consequences. One aspect would be that faults could be reactivated at smaller angles from the maximum compressive stress and that the stress difference would have more realistic values.}
+
+  The differential stress of 706MPa at 10 km depth is due to the assumption of the absence of pore-fluid pressure. The higher stopping criterion in our study is necessary to make faults slip at seismogenic depth under the assumption. We have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 528-538).
+\end{response}
+
+
+
+\end{document}
