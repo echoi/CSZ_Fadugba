@@ -98,30 +98,36 @@ We have added Fig. S1 in the supplementary information.
 
 \begin{response}{4. Section 2.3: You did not mention the values of bulk modulus and shear modulus applied in your calculation.}
 
-  PyLith, the modeling software used in this study, internally converts P and S wave velocities and density to bulk and shear moduli. \add[EC]{For readers' reference, however, we now list representative values of elastic moduli in Table 1.}\note[EC]{Seun, please take care of this.}
+  PyLith, the modeling software used in this study, internally converts P and S wave velocities and density to bulk and shear moduli. For readers' reference, however, we now list representative values of elastic moduli in Table 1. 
+  %\add[EC]{For readers' reference, however, we now list representative values of elastic moduli in Table 1.}\note[EC]{Seun, please take care of this.}
 \end{response}
 
 \begin{response}{5. Line 154-156: As I said in the main concern, you need to justify the reduction of 10\% from the velocity model to represent the impact crater area, instead of, for example, 2\%, 5\%, or 20\%.}
 
-  We ran extra models to have a series of models from 0 to 20 \% reduction. No significant changes in the model results were found in these models. The 10\% reduction in the density of corresponding crustal rock is to model a \annote[EC]{realistic}{Without further justification or proper citation of supporting evidence, you cannot say this. Support it or remove it.} damaged crustal rock \annote[EC]{(Lines 174-175).}{The main text should be accordingly revised. The point should be that, in all the presented models, the impact structure has elastic moduli reduced by 10 \% relative to the surrounding crust but the model results were insensitive to other amounts of reduction as see in Fig. S3 in the supplementary information.}
+  We ran extra models to have a series of models from 0 to 20 \% reduction. No significant changes in the model results were found in these models. The 10\% reduction in the density of corresponding crustal rock is to model a  damaged crustal rock (Lines 174-175). 
+  %\annote[EC]{realistic}{Without further justification or proper citation of supporting evidence, you cannot say this. Support it or remove it.} 
+  %{The main text should be accordingly revised. The point should be that, in all the presented models, the impact structure has elastic moduli reduced by 10 \% relative to the surrounding crust but the model results were insensitive to other amounts of reduction as see in Fig. S3 in the supplementary information.}
 \end{response}
 
 \begin{response}{6. Line 164-165: According to Marone (1995), the assumption of zero cohesion could be valid for the pre-existing fractures sheared at low normal stress. In your models, the fault depth reaches up to 40 km (at least the stress change at 25 km depth is discussed), which is not the case for a low normal stress. It will be helpful to discuss the situation of faults with reasonable cohesive stress values, especially how this influence the fitting of friction coefficient.}
 
-    The faults in our models extend to 40 km but \annote[EC]{slips on them occur only down to about 10 km due to our stopping criterion.}{Correct this if I'm wrong.} Since the non-slipping portion of the faults are irrelevant, the condition of low normal stress is already being satisfied. For reference, however, we have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information.
+    The faults in our models extend to 40 km but slips on them occur only down to about 10 km due to our stopping criterion. 
+    %{Correct this if I'm wrong.} 
+    Since the non-slipping portion of the faults are irrelevant, the condition of low normal stress is already being satisfied. For reference, however, we have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information.
 \end{response}
 
 \begin{response}{7. Line 226-231: When evaluate the modeling result, I suggest the authors to quantify the fitting between the simulated stress change and the earthquake hypocenters. It will help convincing the readers of preferred model parameters. For example, I do not see it necessarily to prefer the frictional coefficient equals to 0.3 over 0.4 based on Figure 11.}
 
    We have added a quantitative assessment
    %\annote[EC]{qualitative assessment}{Why is it still only qualitative? Have you tried one of the ideas I suggested? If none worked, you are supposed to let me know and look at another solution. Unless you have a good reason to ignore the reviewer's suggestion, the editor and the reviewer would be very curious why you didn't follow the suggestion. This is indeed the main reason why I asked if you had run into any trouble while revising the manuscript. Please take care of this and let me know if you need hlep.} \add[OF]{I am sorry it was a typo. I meant quantitative.}
-   of the correlation between the change in differential stress and the observed seismicity \add[OF]{by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\%} without accounting for uncertainty in hypocenter relocation (Line 199-202). We added a discussion on the choice of the friction coefficient in Lines 506-509.
+   of the correlation between the change in differential stress and the observed seismicity by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\% without accounting for uncertainty in hypocenter relocation (Line 199-202). We added a discussion on the choice of the friction coefficient in Lines 506-509.
     %: 1) the change in differential stress maps changes with fault geometry, and we have established an along-strike variation in the fault dips in this study; and 2) the 3D velocity model is very well defined in the upper 5 km depth which may introduced an uncertainty in the hypocenter relocation.
 \end{response}
 
 \begin{response}{8. Line 312: You need to justify the mesh size of 4 km in Section 2.1.}
 
-  \annote[EC]{We have justified}{You cannot simply say like this. Do describe what is the justification here as well.} the mesh size in Section 2.1 (Lines 118-121).
+ % \annote[EC]{We have justified}{You cannot simply say like this. Do describe what is the justification here as well.} the mesh size in Section 2.1 
+  We use a mesh size of 4 km to determine the effect of friction coefficient due to the expensive computation time of models with $\mu$ values of 0.1 and 0.2 (Lines 118-121).
 \end{response}
 
 \begin{response}{9. Line 321-323: It is not sufficient to reject the possibility of positive Coulomb stress change along the entire faults based on limited observation period of seismicity distribution, that is, consider the northern segment as aseismic creeping. Alternatively, it is possible that the northern segment of the fault accumulates the stress loading and has longer time interval to rupture as a seismic asperity. To distinguish these two possibilities, I suggest check the distribution of historical earthquakes, or GPS observations of the fault aseismic slip.}
