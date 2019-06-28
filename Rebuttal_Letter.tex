@@ -38,6 +38,7 @@
 \newcommand\meta[1]{$\langle\hbox{#1}\rangle$}
 \newcommand\PaperTitle[1]{``\textit{#1}''}
 
+\title{}
 %\title{Statement on the Revision of \meta{Paper \#2019JB017831} \\
 %  Based on the Referees' Report}
 %\author{Oluwaseun Idowu Fadugba \and Eunseo Choi \and Christine A. Powell}
@@ -61,13 +62,14 @@ The following are our detailed responses to the comments by the reviewers:
 \end{response}
 
 \begin{response}{I recommend the authors to justify the assumption of the independency effect of involved factors on stress perturbations, or that they have consistently monotonous effects.}
-    The independency effect, if we understand it correctly, is not assumed but achieved by our experiment design, in which a reference model is compared with a model with only one parameter changed. We also believe our original results were already showing that that the controlled parameters have consistently monotonous effects. However, in this revision, we have run more models so that all the explored parameters have more regular intervals and thus the monotonicity of model responses can be exposed more clearly. For more details about the changes we have made in this regard, please refer to our response right below as well as those to the reviewer's specific comments.
+    If the term, ``the independency effect of involved factors'', means the effects of independently controlled parameters on model results. the independency is never assumed and only a logical outcome from our experiment design, in which a reference model is compared with a model with only one parameter changed. 
+
+As for the monotonicity of model responses to varied parameters, our original results are already showing that that the controlled parameters have consistently monotonous effects. However, in this revision, we have run more models so that all the explored parameters have more regular intervals and thus the monotonicity of model responses can be exposed more clearly. For more details about the changes we have made in this regard, please refer to our response right below as well as those to the reviewer's specific comments.
 \end{response}
 
 \begin{response}{Also, I would be curious to know the sensitivity of your model to these factors, so that we will have a rough idea of the model resolution. It will also support your choice of parameter intervals, for example, moduli ratio and $\mu$ (Table 1). Thus, I suggest a moderate revision.}
 
-    We have addressed this concern by running new models, making parameter intervals more regular. The combined set of models not only clearly exhibit the sensitivity but also show that it is a monotonous one. We have justified that the choice of model parameters such as $\mu$, moduli ratio, and have included additional figures in the supplementary information (Figs. S3, S4 and S6) 
-    %\annote[EC]{(Figs. S1-S4 and S6)}{Not all are relevant to this comment. Refer to only those directly relevant.}.
+    We have addressed this concern by running new models, making parameter intervals more regular. The expanded set of models not only provide the sensitivity information but also confirm that the model responses are monotonous to the control parameters in the considered ranges of values. Furthermore, the revised manuscript includes an updated justification for the choice of model parameters such as friction coefficient and elastic moduli ratio.\note[EC]{Seun, specify where in the revised manuscript to look at for this information.} as well as  in the supplementary information (Figs. S3, S4 and \note[EC]{Why S5 is not listed?}S6) 
 \end{response}
 
 %\textbf{We addressed the line-by-line comments below.}
@@ -81,7 +83,7 @@ We have added Fig. S1 in the supplementary information.
 
 \begin{response}{2. Line 116: Introduce the computational efficiency of your model, like how much cores your model requests, how long it takes. You can add this information into Table 1 if it varies much between different models.}
 
-  We have added the computational efficiency of our model in the model geometry section (Lines 126-132) of the manuscript. We did not add the computational efficiency to Table 1 because it does not change significantly among the models except for the SD65R25 model, which took about twice longer to run for the same model time. We do not clearly understand why this model is particularly slow and further analyzing computational efficiency is beyond the scope of this paper.
+  We have added the computational efficiency of our model in the model geometry section (Lines 126-132) of the manuscript. We did not add the computational efficiency to Table 1 because it does not change significantly among the models except for the SD65R25 model, which took about twice longer to run for the same model time. We do not clearly understand why this model is particularly slow but further analyzing computational efficiency is beyond the scope of this paper.
   
   %\add[EC]{, which took about twice longer to run for the same model time.} \annote[EC]{which may be due to the shallower fault dips.}{The shallower fault dips are the difference of SD65R25 from the others but does not directly explain why this model should take much less time. We can go ahead and speculate about possible reasons but it would be just enough to say that we do not clearly understand why this model is particularly slow and further analyzing computational efficiency is beyond the scope of this paper.}
   %\annote[EC]{except for the SD65R25 model}{This model then needs further explanation why it took a significantly longer or short time}. 
@@ -107,9 +109,7 @@ We have added Fig. S1 in the supplementary information.
 
 \begin{response}{5. Line 154-156: As I said in the main concern, you need to justify the reduction of 10\% from the velocity model to represent the impact crater area, instead of, for example, 2\%, 5\%, or 20\%.}
 
-  We ran extra models to have a series of models from 0 to 20 \% reduction. No significant changes in the model results were found in these models. The 10\% reduction in the density of corresponding crustal rock is to model a  damaged crustal rock (Lines 177-180). 
-  %\annote[EC]{realistic}{Without further justification or proper citation of supporting evidence, you cannot say this. Support it or remove it.} 
-  %{The main text should be accordingly revised. The point should be that, in all the presented models, the impact structure has elastic moduli reduced by 10 \% relative to the surrounding crust but the model results were insensitive to other amounts of reduction as see in Fig. S3 in the supplementary information.}
+  The revised manuscript now includes a justification that the 10\% reduction of the density in the impact structure represents damage made to crustal rocks by the impact (Lines 177-180). Since it is not known quantitatively how much the impact affected the crustal density and elastic moduli, we ran extra models to explore the effects of density reduction from 0 to 20 \%. No significant changes in the model results were found in these models. These new results are now included in the supplementary information and Fig. S3 therein.
 \end{response}
 
 \begin{response}{6. Line 164-165: According to Marone (1995), the assumption of zero cohesion could be valid for the pre-existing fractures sheared at low normal stress. In your models, the fault depth reaches up to 40 km (at least the stress change at 25 km depth is discussed), which is not the case for a low normal stress. It will be helpful to discuss the situation of faults with reasonable cohesive stress values, especially how this influence the fitting of friction coefficient.}
@@ -117,22 +117,19 @@ We have added Fig. S1 in the supplementary information.
    % The faults in our models extend to 40 km but slips on them occur only down to about 10 km due to our stopping criterion. %{Correct this if I'm wrong.} 
    % Since the non-slipping portion of the faults are irrelevant, the condition of low normal stress is already being satisfied. For reference, however, we have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information.
     
-    We have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information. However, low-cohesion results show a better spatial correlation with seismicity.
+    We have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information. However, since low-cohesion results show a better spatial correlation with seismicity, the revised manuscript still presents models with zero cohesion as the main results.
     
 \end{response}
 
 \begin{response}{7. Line 226-231: When evaluate the modeling result, I suggest the authors to quantify the fitting between the simulated stress change and the earthquake hypocenters. It will help convincing the readers of preferred model parameters. For example, I do not see it necessarily to prefer the frictional coefficient equals to 0.3 over 0.4 based on Figure 11.}
 
-   We have added a quantitative assessment
-   %\annote[EC]{qualitative assessment}{Why is it still only qualitative? Have you tried one of the ideas I suggested? If none worked, you are supposed to let me know and look at another solution. Unless you have a good reason to ignore the reviewer's suggestion, the editor and the reviewer would be very curious why you didn't follow the suggestion. This is indeed the main reason why I asked if you had run into any trouble while revising the manuscript. Please take care of this and let me know if you need hlep.} \add[OF]{I am sorry it was a typo. I meant quantitative.}
-   of the correlation between the change in differential stress and the observed seismicity by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\% without accounting for uncertainty in hypocenter relocation (Line 199-203). We added a discussion on the choice of the friction coefficient in Lines 506-509.
+   We have added a quantitative assessment of the correlation between the change in differential stress and the observed seismicity by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\% without accounting for uncertainty in hypocenter relocation (Line 199-203). This metric is now used for describing the model results and comparing different models throughout the revised manuscript. We also added a discussion on the choice of the friction coefficient in Lines 506-509.
     %: 1) the change in differential stress maps changes with fault geometry, and we have established an along-strike variation in the fault dips in this study; and 2) the 3D velocity model is very well defined in the upper 5 km depth which may introduced an uncertainty in the hypocenter relocation.
 \end{response}
 
 \begin{response}{8. Line 312: You need to justify the mesh size of 4 km in Section 2.1.}
 
- % \annote[EC]{We have justified}{You cannot simply say like this. Do describe what is the justification here as well.} the mesh size in Section 2.1 
-  We use a mesh size of 4 km to determine the effect of friction coefficient due to the expensive computation time of models with $\mu$ values of 0.1 and 0.2 (Lines 118-122).
+We decided to run this particular group of models to acquire necessary information without increasing computational cost too much. Low-friction models, especially those with $\mu$ equal to 0.1 and 0.2, take \annote[EC]{up to XX weeks}{Seun, please fill out this part} due to slow convergence rate in the non-linear solution scheme. Running all the models in this group at the same mesh resolution of 4 km ensures intra-group consistency; and comparison with 2 km-resolution models is also justified because the descritization error does not dramatically increase as the resolution increases to 4 km (Fig. S1). This discussion is now included in Lines \annote[EC]{XXX-YYY}{Seun, please do add this discussion and fill out the line numbers here} of the revised manuscript.
 \end{response}
 
 \begin{response}{9. Line 321-323: It is not sufficient to reject the possibility of positive Coulomb stress change along the entire faults based on limited observation period of seismicity distribution, that is, consider the northern segment as aseismic creeping. Alternatively, it is possible that the northern segment of the fault accumulates the stress loading and has longer time interval to rupture as a seismic asperity. To distinguish these two possibilities, I suggest check the distribution of historical earthquakes, or GPS observations of the fault aseismic slip.}
