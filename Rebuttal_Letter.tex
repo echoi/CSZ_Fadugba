@@ -69,7 +69,7 @@ As for the monotonicity of model responses to varied parameters, our original re
 
 \begin{response}{Also, I would be curious to know the sensitivity of your model to these factors, so that we will have a rough idea of the model resolution. It will also support your choice of parameter intervals, for example, moduli ratio and $\mu$ (Table 1). Thus, I suggest a moderate revision.}
 
-    We have addressed this concern by running new models, making parameter intervals more regular. The expanded set of models not only provide the sensitivity information but also confirm that the model responses are monotonous to the control parameters in the considered ranges of values. Furthermore, the revised manuscript includes an updated justification for the choice of model parameters such as friction coefficient and elastic moduli ratio (Lines 368-374 and 422-425) as well as  in the supplementary information (Figs. S3-6) 
+    We have addressed this concern by running new models, making parameter intervals more regular. The expanded set of models not only provide the sensitivity information but also confirm that the model responses are monotonous to the control parameters in the considered ranges of values. Furthermore, the revised manuscript includes an updated justification for the choice of model parameters such as friction coefficient and elastic moduli ratio (Lines 377-383 and 431-434) as well as  in the supplementary information (Figs. S3-6) 
     %\note[EC]{Seun, specify where in the revised manuscript to look at for this information.} %\note[EC]{Why S5 is not listed?}
 \end{response}
 
@@ -98,7 +98,7 @@ We have added Fig. S1 in the supplementary information.
   The differential stress of 706 MPa at 10 km depth is based on Byerlee's law under the assumption of  
   %$\mu$ equal to 0.6 and \add[OF]{The equation of Byerlee's law has a μ value of 0.6. It is not an assumption in our study.}
   %\add[EC]{$\mu$ equal to 0.6 and} 
-  the absence of pore-fluid pressure. The full derivation of this value is now provided in the supplementary information. Shear stress was not considered as a stopping criterion. In addition, we have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 534-546).
+  the absence of pore-fluid pressure. The full derivation of this value is now provided in the supplementary information. Shear stress was not considered as a stopping criterion. In addition, we have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 538-549).
   
 \end{response}
 
@@ -110,7 +110,7 @@ We have added Fig. S1 in the supplementary information.
 
 \begin{response}{5. Line 154-156: As I said in the main concern, you need to justify the reduction of 10\% from the velocity model to represent the impact crater area, instead of, for example, 2\%, 5\%, or 20\%.}
 
-  The revised manuscript now includes a justification that the 10\% reduction of the density in the impact structure represents damage made to crustal rocks by the impact (Lines 181-186). Since it is not known quantitatively how much the impact affected the crustal density and elastic moduli, we ran extra models to explore the effects of density reduction from 0 to 20 \%. No significant changes in the model results were found in these models. These new results are included in the supplementary information and Fig. S3 therein.
+  The revised manuscript now includes a justification that the 10\% reduction of the density in the impact structure represents damage made to crustal rocks by the impact (Lines 181-186). Since it is not known quantitatively how much the impact affected the crustal density and elastic moduli, we ran extra models to explore the effects of density reduction from 0 to 20 \%. No significant changes in the model results were found in these models. These new results are now included in the supplementary information and Fig. S3 therein.
 \end{response}
 
 \begin{response}{6. Line 164-165: According to Marone (1995), the assumption of zero cohesion could be valid for the pre-existing fractures sheared at low normal stress. In your models, the fault depth reaches up to 40 km (at least the stress change at 25 km depth is discussed), which is not the case for a low normal stress. It will be helpful to discuss the situation of faults with reasonable cohesive stress values, especially how this influence the fitting of friction coefficient.}
@@ -124,13 +124,15 @@ We have added Fig. S1 in the supplementary information.
 
 \begin{response}{7. Line 226-231: When evaluate the modeling result, I suggest the authors to quantify the fitting between the simulated stress change and the earthquake hypocenters. It will help convincing the readers of preferred model parameters. For example, I do not see it necessarily to prefer the frictional coefficient equals to 0.3 over 0.4 based on Figure 11.}
 
-   We have added a quantitative assessment of the correlation between the change in differential stress and the observed seismicity by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\% without accounting for uncertainty in hypocenter relocation (Line 205-209). This metric is now used for describing the model results and comparing different models throughout the revised manuscript. We also added a discussion on the choice of the friction coefficient in Lines 512-518.
+   We have added a quantitative assessment of the correlation between the change in differential stress and the observed seismicity by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\% without accounting for uncertainty in hypocenter relocation (Line 209-213). This metric is now used for describing the model results and comparing different models throughout the revised manuscript. We also added a discussion on the choice of the friction coefficient in Lines 512-518.
     %: 1) the change in differential stress maps changes with fault geometry, and we have established an along-strike variation in the fault dips in this study; and 2) the 3D velocity model is very well defined in the upper 5 km depth which may introduced an uncertainty in the hypocenter relocation.
 \end{response}
 
 \begin{response}{8. Line 312: You need to justify the mesh size of 4 km in Section 2.1.}
 
-We decided to run the models for various friction coefficients at the 4 km resolution to acquire necessary information without increasing computational cost too much. The low-friction models suffer slow convergence rate in the non-linear solution scheme. For instance, the models with $\mu$ equal to 0.1 and 0.2 were let run for 4 weeks on 40 cores to progress only to about half of the target model time. Running all the models in this group at the same mesh resolution of 4 km ensures intra-group consistency but at the same time, comparison with 2 km-resolution models is also justified because the descritization error does not significantly increase as the resolution increases from 2 to 4 km (Fig. S1). This discussion is now included in Lines 118 to 127 of the revised manuscript.
+We decided to run this particular group of models to acquire necessary information without increasing computational cost too much. Low-friction models, especially those with $\mu$ equal to 0.1 and 0.2, are very expensive 
+%take \annote[EC]{up to XX weeks}{Seun, please fill out this part} 
+due to slow convergence rate in the non-linear solution scheme. Running all the models in this group at the same mesh resolution of 4 km ensures intra-group consistency; and comparison with 2 km-resolution models is also justified because the descritization error does not dramatically increase as the resolution increases to 4 km (Fig. S1). This discussion is now included in Lines 118 to 127 of the revised manuscript. % \annote[EC]{XXX-YYY}{Seun, please do add this discussion and fill out the line numbers here} 
 \end{response}
 
 \begin{response}{9. Line 321-323: It is not sufficient to reject the possibility of positive Coulomb stress change along the entire faults based on limited observation period of seismicity distribution, that is, consider the northern segment as aseismic creeping. Alternatively, it is possible that the northern segment of the fault accumulates the stress loading and has longer time interval to rupture as a seismic asperity. To distinguish these two possibilities, I suggest check the distribution of historical earthquakes, or GPS observations of the fault aseismic slip.}
@@ -150,7 +152,7 @@ We decided to run the models for various friction coefficients at the 4 km resol
 
 \begin{response}{2. Line 428: Please add a reference to support the implication of these rift faults have varied dip angle along depth.}
 
-  We have added an appropriate reference (Line 443).
+  We have added an appropriate reference (Line 447).
 \end{response}
 
 \textbf{Comments on Figures and Tables:}
@@ -183,25 +185,25 @@ This study is important to better understand the characteristics of the seismici
 
 \begin{response}{An aspect that may have been missed is the fact that the epicentral map, such as Fig. 1, does not show a complete view of the regional seismicity. The SSW portion of the St. Lawrence River (upstream towards Quebec City) is also active (although not as much as the interior of the astrobleme). The dataset shown is the one of Powell and Lamontagne (2017) which was a selection of events based on their locations within the network of seismograph stations, but for this map view, I suggest that a more complete dataset is presented. The data can be downloaded from the earthquakescanada web site.}
 
-  We have plotted the complete dataset in Fig. 1. We represented the relocated hypocenters of Powell and Lamontagne (2017) as circles and the other earthquakes that are not in the relocated catalog as diamonds.
+  We have plotted the complete dataset in Fig. 1. We represented the relocated hypocenters of Powell and Lamontagne (2017) as circles and the other earthquakes that are not in the relocated catalog as stars.
 \end{response}
 
 \begin{response}{In a couple of places, authors use the expression 'large magnitude earthquakes'... Except for the 1925 M 6.2 earthquake, we are uncertain about the exact position of the 'large' earthquakes in Charlevoix (four other M6+; 1663; 1791, 1860,1870... although 1870 M 6.5 was probably near Ile-aux-Coudres). It would be better to say that the M4+ earthquakes, appear to occur more often in the NE portion of the CSZ. Stevens (1980) also found that some M4+ earthquakes of the period 1924-1980 also occurred at the SE end.}
 
-  We have edited the manuscript accordingly (see Lines 454-456). We have also included the findings of Steven (1980) in our discussion.
+  We have edited the manuscript accordingly (see Lines 458-460). We have also included the findings of Steven (1980) in our discussion.
 \end{response}
 
 \begin{response}{The authors write that the focal mechanisms of the CSZ were not well defined. I disagree with them. You can check this OF report, which shows that the Quality 'A' mechanisms were well defined by the P first motions. I think that Mazzotti used most of them in his catalog.
 https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?
 path=geoscan/downloade.web\&search1=R=209378}
 
- The focal mechanisms are good, and we suggest that the focal mechanisms can be further constrained using waveform modeling to validate the magnitude of the stress rotation (Lines 569-572).
+ The focal mechanisms are well defined, and we suggest that the focal mechanisms can be further constrained using waveform modeling to validate the magnitude of the stress rotation (Lines 572-575).
 \end{response}
 
 \begin{response}{The model assumes an absence of pore-fluid pressure along faults. For this reason, the stress difference used by the authors is very high at seismogenic depth. It is my impression that worldwide, direct measurements and modelling of tectonic stresses suggest that the maximum crustal stress difference has an upper limit of about 100-200 MPa... very different from the 706 MPa suggested by the authors.
 I think that the authors should discuss the possibility that high pore-fluid pressures exist at depth and their possible consequences. One aspect would be that faults could be reactivated at smaller angles from the maximum compressive stress and that the stress difference would have more realistic values.}
 
-  The differential stress of 706MPa at 10 km depth is due to the assumption of the absence of pore-fluid pressure. The higher stopping criterion in our study is necessary to make faults slip at seismogenic depth under the assumption. We have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 534-546).
+  The differential stress of 706MPa at 10 km depth is due to the assumption of the absence of pore-fluid pressure. The higher stopping criterion in our study is necessary to make faults slip at seismogenic depth under the assumption. We have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 538-549).
 \end{response}
 
 

@@ -248,7 +248,7 @@ The errors in displacement components and differential stress in models with ele
 \vspace{10mm} %5mm vertical space
 
 \noindent\textbf{Stopping criterion of differential stress at 10 km depth}
-\vspace{10mm} %5mm vertical space
+%\vspace{10mm} %5mm vertical space
 
 \begin{figure}[ht]
 \setfigurenum{S2}
@@ -273,28 +273,39 @@ After simpligying and solving for $\sigma_{1}$, we ge the following expression:
  \sigma_{1} = \frac{\sigma_{3}+[\sigma_{3}+\frac{500}{3}] \sin(\alpha)}{1-\sin \alpha}.
 \]
 
-Based on Byerlee's law, $\tau$  = 50 MPa + 0.6$\,\sigma_n$, under the assumption of absence of pore-fluid pressure along the rift faults, $\tan \alpha = 0.6$, hence, $\sin \alpha = 0.5145$. $\sigma_{3}$ corresponds to the lithostatic stress amounting to 250.0 MPa at 10 km depth \add[EC]{for a density of XXXX kg/m$^{3}$}. With these values and the above expression, we get $\sigma_{1}$ = \annote[EC]{956.5}{Pay attention to the number of significant figures! I don't think our calculations can afford 7 or 8-digit precision so I rounded off the original value leaving 4 digits.} MPa. The differential stress at 10 km depth with no pore-fluid pressure, defined as $\sigma_{D} = \sigma_{1} - \sigma_{3})$, is 706.5 MPa. 
+Based on Byerlee's law, $\tau$  = 50 MPa + 0.6$\,\sigma_n$, under the assumption of absence of pore-fluid pressure along the rift faults, $\tan \alpha = 0.6$, hence, $\sin \alpha = 0.5145$. $\sigma_{3}$ corresponds to the lithostatic stress amounting to 250.0 MPa at 10 km depth for a density of 2.55 kg/m$^{3}$.
+%\add[EC]{for a density of XXXX kg/m$^{3}$}. 
+With these values and the above expression, we get $\sigma_{1}$ = 956.5 MPa.
+%\annote[EC]{956.5}{Pay attention to the number of significant figures! I don't think our calculations can afford 7 or 8-digit precision so I rounded off the original value leaving 4 digits.} MPa. 
+The differential stress at 10 km depth with no pore-fluid pressure, defined as $\sigma_{D} = \sigma_{1} - \sigma_{3}$, is 706.5 MPa. 
 
 \vspace{10mm} %5mm vertical space
 
 \noindent\textbf{Effects of density ratio in the impact structure}
 
-\note[EC]{Turn the first long phrase into a sentence. Right now it reads like a figure caption but it shouldn't in a normal paragraph.} The percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$), and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) relative to the reference model (SNFR25) for models with different impact structure-crust density ratio (Fig. \ref{S3}).  The maps show no significant change with density ratio. In this study, we choose the density ratio of 10\% to represent damaged crustal rock. 
+%\note[EC]{Turn the first long phrase into a sentence. Right now it reads like a figure caption but it shouldn't in a normal paragraph.} The percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$), and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) relative to the reference model (SNFR25) for models with different impact structure-crust density ratio (Fig. \ref{S3}).  
+
+We explore the effects of density reduction from 0 to 20 \% in a series of models in which the rift faults dip at 70$^{\circ}$ (i.e., SD70R25) (Fig. \ref{S3}). No significant changes in the model results were found in these models. In this study, we choose the density ratio of 10\% to represent damaged crustal rock. 
 \vspace{10mm} %5mm vertical space
 
 \begin{figure}[ht]
 \setfigurenum{S3}
 \includegraphics[width=25pc]{Figures/effect_of_density.png}
-\caption{\note[EC]{Symbol descriptions are missing. Include those in Fig. S4 caption.} Effect of impact structure-crust density ratio on the $\Delta\sigma_{D}^{\prime}$, $\phi_{\max}$ and $\Delta \phi_{\max}^{\prime}$ at 10 km depth. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{S3}A. The outline of the impact structure is represented as black circle. Each figure is 70 $\times$ 70 km.}
+\caption{
+%\note[EC]{Symbol descriptions are missing. Include those in Fig. S4 caption.} 
+Effect of impact structure-crust density ratio on the percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$) and the change in $\phi_{\max}$ ($\Delta \phi_{\max}^{\prime}$) at 10 km depth. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{S3}A. The outline of the impact structure is represented as black circle. Each figure is 70 $\times$ 70 km.}
 \label{S3}
 \end{figure}
+
 
 \vspace{10mm} %5mm vertical space
 
 
 \noindent\textbf{Effects of no impact structure (SD70R100 model)}
 
-\note[EC]{Turn the first long phrase into a sentence. Right now it reads like a figure caption but it shouldn't in a normal paragraph.} The percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$), and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) relative to the reference model (SNFR25) at various depths from the SD70R100 model (Fig. \ref{S4}).  $\Delta\sigma_{D}^{\prime}$ shows increased $\sigma_{D}$ relative to SNFR25 throughout the entire length of the rift faults at and below 15 km depth, hence the model predicts earthquakes in those regions. 
+We compute $\Delta \sigma_{D}^{\prime}$, $\phi_{\max}$ and $\Delta \phi_{\max}^{\prime}$ in the SD70R100 model (Fig. \ref{S4}). The model exhibit the effects of the rift faults since the impact structure and the crust have the same elastic moduli. 
+%\note[EC]{Turn the first long phrase into a sentence. Right now it reads like a figure caption but it shouldn't in a normal paragraph.} The percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max}$), and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) relative to the reference model (SNFR25) at various depths from the SD70R100 model (Fig. \ref{S4}).  
+$\Delta\sigma_{D}^{\prime}$ shows increased $\sigma_{D}$ relative to SNFR25 throughout the entire length of the rift faults at and below 15 km depth, hence the model predicts earthquakes in those regions. 
 
 \vspace{10mm} %5mm vertical space
 
@@ -311,7 +322,7 @@ Based on Byerlee's law, $\tau$  = 50 MPa + 0.6$\,\sigma_n$, under the assumption
 
 \noindent\textbf{Effects of impact structure-crust moduli ratio}
 
-We run 4 models in total to assess the effects of impact structure-to-crust moduli ratio assuming that the impact structure was softened. The ratio equal to 1, for instance, means that the impact structure was not softened and thus has the elastic moduli with those of the surrounding crust. The models show a better spatial correlation with the observed seismicity when the moduli ratio is 0.25. 
+We run 4 models in total to assess the effects of impact structure-to-crust moduli ratio assuming that the impact structure was softened (Fig. \ref{S5}). The ratio equal to 1, for instance, means that the impact structure was not softened and thus has the elastic moduli with those of the surrounding crust. The models show a better spatial correlation with the observed seismicity when the moduli ratio is 0.25. 
 
 \vspace{10mm} %5mm vertical space
 
@@ -328,27 +339,27 @@ We run 4 models in total to assess the effects of impact structure-to-crust modu
 
 We compute $\Delta \sigma_{D}^{\prime}$, $\phi_{\max}$ and $\Delta \phi_{\max}^{\prime}$ in a series of models in which the rift faults dip at 70$^{\circ}$ (i.e., SD70R25) but their cohesion ($C$) is varied from 0 to 30 MPa while the friction coefficient ($\mu$) is fixed at 0.3 (Fig.~\ref{S6}). We assume that the fault parameters are the same for each of the three rift faults and uniform throughout the fault surfaces. %Six models with 0, 3, 5, 10, 20 and 30 MPa are constructed (Fig. \ref{S6}).
 
-Magnitudes of $\Delta\sigma_D^{\prime}$ and \annote[EC]{$\phi_{\max}$}{Fig. S6B doesn't support this.} decrease with increasing cohesion. $\Delta\sigma_D^{\prime}$ maps spatially overlap with the distribution of seismicity for all the fault cohesions\annote[EC]{, especially well when the cohesion is less than 5 MPa}{What makes you say so? Can't you use the new metric for this argument?} (Fig. \ref{S6}A). However, the models could not explain a few earthquakes in the SW corner of the crater, where $\Delta\sigma_D^{\prime}$ is negative. The $\Delta\sigma_D^{\prime}$ is not affected by a change in cohesion between 0 and 5 MPa. However, $\phi_{\max}$ approaches the reference no-fault model as the cohesion increases (Fig. \ref{S6}B). As cohesion increases, $\Delta\phi_{\max}$ decreases in value and the rotation is concentrated in the fault region outside the crater (Fig. \ref{S6}C). $\Delta\phi_{\max}$ is up to 10.8$^\circ$ when the cohesion is less than 5 MPa. 
-
-\note[EC]{Why do you make remarks on $\mu$ mentioning cohesion only little in the paragraph for the effects of cohesion?} Figure \ref{S6} suggests that $\mu$ is an essential fault parameter needed to explain the seismicity of the CSZ because the value of $\mu$ affects the slope of the Mohr-Coulomb failure envelope. We present models with zero cohesion in the main text because to explain the spatial distribution of observed seismicity in the CSZ. 
-
-\vspace{10mm} %5mm vertical space
+%\vspace{10mm} %5mm vertical space
 
 \begin{figure}[ht]
 \setfigurenum{S6}
-\includegraphics[width=25pc]{Figures/SD70R25C_S2.png}
+\includegraphics[width=25pc]{Figures/SD70R25C_S6.png}
 \caption{Same as \ref{S3} but for the models with different cohesion values.}
 \label{S6}
 \end{figure}
 
-\vspace{10mm} %5mm vertical space
+%\vspace{10mm} %5mm vertical space
+
+Magnitudes of $\Delta\sigma_D^{\prime}$ % and \annote[EC]{$\phi_{\max}$}{Fig. S6B doesn't support this.} 
+decrease with increasing cohesion. $\Delta\sigma_D^{\prime}$ maps spatially overlap with the distribution of seismicity %for all the fault cohesions, especially well 
+when the cohesion is less than 5 MPa with about 70\% of the hypocenters fall in the region with $\Delta\sigma_D^{\prime} \ge$ 0.5\% (Fig. \ref{S6}A). %The percentages of the hypocenters in the region with $\Delta\sigma_D^{\prime} \ge$ 0.5\% decrease to 61\% and 47\% for cohesion values of 20 and 30 MPa, respectively.
+%\annote[EC]{, especially well when the cohesion is less than 5 MPa}{What makes you say so? Can't you use the new metric for this argument?} (Fig. \ref{S6}A). 
+However, the models could not explain a few earthquakes in the SW corner of the crater, where $\Delta\sigma_D^{\prime}$ is negative. The $\Delta\sigma_D^{\prime}$ is not affected by a change in cohesion between 0 and 5 MPa. However, $\phi_{\max}$ approaches the reference no-fault model as the cohesion increases (Fig. \ref{S6}B). As cohesion increases, $\Delta\phi_{\max}$ decreases in value and the rotation is concentrated in the fault region outside the crater (Fig. \ref{S6}C). $\Delta\phi_{\max}$ is up to 10.8$^\circ$ when the cohesion is less than 5 MPa. We present models with zero cohesion in the main text to explain the spatial distribution of observed seismicity in the CSZ.
+
+%\note[EC]{Why do you make remarks on $\mu$ mentioning cohesion only little in the paragraph for the effects of cohesion?} Figure \ref{S6} suggests that $\mu$ is an essential fault parameter needed to explain the seismicity of the CSZ because the value of $\mu$ affects the slope of the Mohr-Coulomb failure envelope. We present models with zero cohesion in the main text because to explain the spatial distribution of observed seismicity in the CSZ. 
 
 
-\pagebreak
-
-
-
-
+%\pagebreak
 
 
 
