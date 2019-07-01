@@ -39,17 +39,12 @@
 \newcommand\PaperTitle[1]{``\textit{#1}''}
 
 \title{}
-%\title{Statement on the Revision of \meta{Paper \#2019JB017831} \\
-%  Based on the Referees' Report}
-%\author{Oluwaseun Idowu Fadugba \and Eunseo Choi \and Christine A. Powell}
-%\date{\today}
 \date{}
 
 
 \begin{document}
 
 \noindent Dear Dr Yehuda Ben-Zion,
-%\add[EC]{[the name of the handling editor]}, 
 \\\vspace{1em}
 
 Thank you for giving us the opportunity to revise our manuscript \PaperTitle{Effects of pre-existing structures on the seismicity of the Charlevoix Seismic Zone}. We also thank the reviewers for the critical assessment and constructive comments on the manuscript. In this submission, you will find our detailed answers to all of the reviewers’ comments, a copy of the revised manuscript with all changes highlighted in color, a copy of the revised manuscript with the changes simply incorporated, and the supplementary material that we would like to provide to the readers.
@@ -70,11 +65,7 @@ As for the monotonicity of model responses to varied parameters, our original re
 \begin{response}{Also, I would be curious to know the sensitivity of your model to these factors, so that we will have a rough idea of the model resolution. It will also support your choice of parameter intervals, for example, moduli ratio and $\mu$ (Table 1). Thus, I suggest a moderate revision.}
 
     We have addressed this concern by running new models, making parameter intervals more regular. The expanded set of models not only provide the sensitivity information but also confirm that the model responses are monotonous to the control parameters in the considered ranges of values. Furthermore, the revised manuscript includes an updated justification for the choice of model parameters such as friction coefficient and elastic moduli ratio (Lines 377-383 and 431-434) as well as  in the supplementary information (Figs. S3-6) 
-    %\note[EC]{Seun, specify where in the revised manuscript to look at for this information.} %\note[EC]{Why S5 is not listed?}
 \end{response}
-
-%\textbf{We addressed the line-by-line comments below.}
-
 
 \begin{response}{1. Line 113: Add a supplementary figure to support your statement of consistent solutions for domain sizes of 1 km and 2 km.}
   
@@ -86,26 +77,19 @@ We have added Fig. S1 in the supplementary information.
 
   We have added the computational efficiency of our model in the model geometry section (Lines 131-137) of the manuscript. We did not add the computational efficiency to Table 1 because it does not change significantly among the models except for the SD65R25 model, which took about twice longer to run for the same model time. We do not clearly understand why this model is particularly slow but further analyzing computational efficiency is beyond the scope of this paper.
   
-  %\add[EC]{, which took about twice longer to run for the same model time.} \annote[EC]{which may be due to the shallower fault dips.}{The shallower fault dips are the difference of SD65R25 from the others but does not directly explain why this model should take much less time. We can go ahead and speculate about possible reasons but it would be just enough to say that we do not clearly understand why this model is particularly slow and further analyzing computational efficiency is beyond the scope of this paper.}
-  %\annote[EC]{except for the SD65R25 model}{This model then needs further explanation why it took a significantly longer or short time}. 
-  %\note[EC]{Is there a reason why you did not follow the reviewer's suggestion to add this into to Table 1?}
 \end{response}
 
 
 \begin{response}{3. Line 131-133: I do not understand why you set your boundary conditions as the differential stress reaches 706 MPa. Do you set a criterion for shear stress somewhere else? Please make it more clear.}
 
-  %\annote[EC]{We agree with the reviewer}{Agree only when you are sure that doing so would not negatively affect your arguments, assumptions or the overall integrity of your paper. Never confess; only justify.} on the high differential stress at seismogenic depth in our study, due to}
-  The differential stress of 706 MPa at 10 km depth is based on Byerlee's law under the assumption of  
-  %$\mu$ equal to 0.6 and \add[OF]{The equation of Byerlee's law has a μ value of 0.6. It is not an assumption in our study.}
-  %\add[EC]{$\mu$ equal to 0.6 and} 
-  the absence of pore-fluid pressure. The full derivation of this value is now provided in the supplementary information. Shear stress was not considered as a stopping criterion. In addition, we have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 538-549).
+  The differential stress of 706 MPa at 10 km depth is based on Byerlee's law under the assumption of the absence of pore-fluid pressure. The full derivation of this value is now provided in the supplementary information. Shear stress was not considered as a stopping criterion. In addition, we have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 538-549).
   
 \end{response}
 
 \begin{response}{4. Section 2.3: You did not mention the values of bulk modulus and shear modulus applied in your calculation.}
 
   PyLith, the modeling software used in this study, internally converts P and S wave velocities and density to bulk and shear moduli. For readers' reference, however, we now list representative values of elastic moduli in Table 1. 
-  %\add[EC]{For readers' reference, however, we now list representative values of elastic moduli in Table 1.}\note[EC]{Seun, please take care of this.}
+
 \end{response}
 
 \begin{response}{5. Line 154-156: As I said in the main concern, you need to justify the reduction of 10\% from the velocity model to represent the impact crater area, instead of, for example, 2\%, 5\%, or 20\%.}
@@ -114,9 +98,6 @@ We have added Fig. S1 in the supplementary information.
 \end{response}
 
 \begin{response}{6. Line 164-165: According to Marone (1995), the assumption of zero cohesion could be valid for the pre-existing fractures sheared at low normal stress. In your models, the fault depth reaches up to 40 km (at least the stress change at 25 km depth is discussed), which is not the case for a low normal stress. It will be helpful to discuss the situation of faults with reasonable cohesive stress values, especially how this influence the fitting of friction coefficient.}
-
-   % The faults in our models extend to 40 km but slips on them occur only down to about 10 km due to our stopping criterion. %{Correct this if I'm wrong.} 
-   % Since the non-slipping portion of the faults are irrelevant, the condition of low normal stress is already being satisfied. For reference, however, we have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information.
     
     We have explored non-zero values of cohesion and their impact on the results are shown in Fig. S4 in the supplementary information. However, since low-cohesion results show a better spatial correlation with seismicity, the revised manuscript still presents models with zero cohesion as the main results.
     
@@ -125,22 +106,19 @@ We have added Fig. S1 in the supplementary information.
 \begin{response}{7. Line 226-231: When evaluate the modeling result, I suggest the authors to quantify the fitting between the simulated stress change and the earthquake hypocenters. It will help convincing the readers of preferred model parameters. For example, I do not see it necessarily to prefer the frictional coefficient equals to 0.3 over 0.4 based on Figure 11.}
 
    We have added a quantitative assessment of the correlation between the change in differential stress and the observed seismicity by determining the percentage of hypocenters in the region with $\Delta\sigma_{D}^\prime \ge$ 0.5\% without accounting for uncertainty in hypocenter relocation (Line 209-213). This metric is now used for describing the model results and comparing different models throughout the revised manuscript. We also added a discussion on the choice of the friction coefficient in Lines 512-518.
-    %: 1) the change in differential stress maps changes with fault geometry, and we have established an along-strike variation in the fault dips in this study; and 2) the 3D velocity model is very well defined in the upper 5 km depth which may introduced an uncertainty in the hypocenter relocation.
+
 \end{response}
 
 \begin{response}{8. Line 312: You need to justify the mesh size of 4 km in Section 2.1.}
 
-We decided to run this particular group of models to acquire necessary information without increasing computational cost too much. Low-friction models, especially those with $\mu$ equal to 0.1 and 0.2, are very expensive 
-%take \annote[EC]{up to XX weeks}{Seun, please fill out this part} 
-due to slow convergence rate in the non-linear solution scheme. Running all the models in this group at the same mesh resolution of 4 km ensures intra-group consistency; and comparison with 2 km-resolution models is also justified because the descritization error does not dramatically increase as the resolution increases to 4 km (Fig. S1). This discussion is now included in Lines 118 to 127 of the revised manuscript. % \annote[EC]{XXX-YYY}{Seun, please do add this discussion and fill out the line numbers here} 
+We decided to run this particular group of models to acquire necessary information without increasing computational cost too much. Low-friction models, especially those with $\mu$ equal to 0.1 and 0.2, are very expensive due to slow convergence rate in the non-linear solution scheme. Running all the models in this group at the same mesh resolution of 4 km ensures intra-group consistency; and comparison with 2 km-resolution models is also justified because the descritization error does not dramatically increase as the resolution increases to 4 km (Fig. S1). This discussion is now included in Lines 118 to 127 of the revised manuscript. 
+
 \end{response}
 
 \begin{response}{9. Line 321-323: It is not sufficient to reject the possibility of positive Coulomb stress change along the entire faults based on limited observation period of seismicity distribution, that is, consider the northern segment as aseismic creeping. Alternatively, it is possible that the northern segment of the fault accumulates the stress loading and has longer time interval to rupture as a seismic asperity. To distinguish these two possibilities, I suggest check the distribution of historical earthquakes, or GPS observations of the fault aseismic slip.}
 
   The distribution of historical earthquakes in the Charlevoix area by Stevens (1980) shows that earthquakes are not distributed along the entire fault length. However, some earthquakes  in recent catalog are located at the SW region outside the impact structure, as shown in the updated Fig. 1.
   
- %\annote[EC]{Some earthquakes occurred at the SW region outside the impact structure, as shown in the updated Fig. 1. However, reexamination of historical earthquakes in the Charlevoix area by Stevens (1980) also supports a finite extent of the observed seismicity in the CSZ.}{This response is not addressing the reviewer's concern. }
-
 \end{response}
 
 \textbf{Minor and typographic errors} 
@@ -205,7 +183,5 @@ I think that the authors should discuss the possibility that high pore-fluid pre
 
   The differential stress of 706MPa at 10 km depth is due to the assumption of the absence of pore-fluid pressure. The higher stopping criterion in our study is necessary to make faults slip at seismogenic depth under the assumption. We have included a discussion on the possibility and some consequences of pore-fluid pressure at depth (Lines 538-549).
 \end{response}
-
-
 
 \end{document}
