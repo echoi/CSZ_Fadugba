@@ -163,7 +163,7 @@
 %% \begin{abstract} starts the second page 
 
 \begin{abstract}
-The Charlevoix Seismic Zone (CSZ) \change[OF]{occurs}{is located} along the early Paleozoic St. Lawrence rift zone in southeastern Quebec at the location of a major Devonian impact \change[OF]{crater}{structure}. The \change[OF]{crater}{impact structure} superimposed major, steeply dipping basement faults trending \add[OF]{approximately} N35$^\circ$E. \change[OF]{Many}{Approximately 250} earthquakes are recorded each year in the CSZ and are concentrated within and beneath the impact \change[OF]{crater}{structure}. \change[OF]{Some large-magnitude}{Most M4+} earthquakes associated with the rift faults occurred outside the \change[OF]{crater}{impact structure}. Apart from the unique distribution of earthquakes in the CSZ, stress inversion of focal mechanisms shows stress rotations within the CSZ, and in the CSZ relative to the stress orientation determined from borehole breakouts. The primary goal of this research is to investigate the combined effects of the pre-existing structures and regional stresses on earthquake activity and stress rotations in the CSZ. We approach this using PyLith, a finite-element code for simulations of crustal deformation. Adopting the results from recent hypocenter relocation and 3D tomography studies, we modify the locations and dips of the rift faults and assess the effect of the new fault geometries on stress distributions. We also discuss the effects of resolved velocity anomalies. We find that the observed stress rotation is due to the combined effect of the rift faults and the \change[OF]{crater impact}{impact structure}. 1D velocity models of the CSZ with an embedded \change[OF]{crater}{impact structure} and a combination of 65$^\circ$-40$^\circ$-40$^\circ$ and constant 70$^\circ$ fault dip models \add[OF]{for the three main rift faults} with a \add[OF]{very low} friction coefficient of 0.3 and cohesion of 0 MPa can explain the observed seismicity and more than 50$\%$ of the stress rotations.
+The Charlevoix Seismic Zone (CSZ) \change[OF]{occurs}{is located} along the early Paleozoic St. Lawrence rift zone in southeastern Quebec at the location of a major Devonian impact \change[OF]{crater}{structure}. The \change[OF]{crater}{impact structure} superimposed major, steeply dipping basement faults trending \add[OF]{approximately} N35$^\circ$E. \change[OF]{Many}{Approximately 250} earthquakes are recorded each year \remove[OF]{in the CSZ} and are concentrated within and beneath the impact \change[OF]{crater}{structure}. \change[OF]{Some large-magnitude}{Most M4+} earthquakes associated with the rift faults occurred outside the \change[OF]{crater}{impact structure}. Apart from the unique distribution of earthquakes \remove[OF]{in the CSZ}, stress inversion of focal mechanisms shows stress rotations within the CSZ, and in the CSZ relative to the stress orientation determined from borehole breakouts. The primary goal of this research is to investigate the combined effects of the pre-existing structures and regional stresses on earthquake activity and stress rotations in the CSZ. We approach this using PyLith, a finite-element code for simulations of crustal deformation. Adopting the results from recent hypocenter relocation and 3D tomography studies, we modify the locations and dips of the rift faults and assess the effect of the new fault geometries on stress distributions. We also discuss the effects of resolved velocity anomalies. We find that the observed stress rotation is due to the combined effect of the rift faults and the \change[OF]{crater impact}{impact structure}. 1D velocity models of the CSZ with an embedded \change[OF]{crater}{impact structure} and a combination of 65$^\circ$-40$^\circ$-40$^\circ$ and constant 70$^\circ$ \change[OF]{fault dip}{fault-dip} models with a \add[OF]{very low} friction coefficient of 0.3 and cohesion of 0 MPa can explain the observed seismicity and more than 50$\%$ of the stress rotations.
 \end{abstract}
 
 
@@ -172,7 +172,7 @@ The Charlevoix Seismic Zone (CSZ) is the most seismically active region in easte
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=18.5pc]{Figures/Map_of_CSZ_2.png} 
+\includegraphics[width=18.5pc]{Map_of_CSZ_2.png} 
 \caption{Topography\add[OF]{, bathymetry,} and seismicity of the Charlevoix Seismic Zone (CSZ) as well as the locations of the impact \change[OF]{crater}{structure} (outer cyan circle) and the more damaged inner \change[OF]{crater}{impact structure} (inner cyan circle). Small circles \add[OF]{and stars} are the relocated epicenters~\citep{Powell_2017} \add[OF]{and the complete dataset for the years 1988-2011, respectively,} and their colors represent the focal depths. The focal mechanisms are for the earthquakes used by \citet{Mazzotti_2010} for the stress inversion. Large circles labeled as NW and SE show orientations of SH$_{\max}$ from the stress inversion of focal mechanism (SH$_S$) and from borehole breakout measurements (SH$_B$) for the earthquake clusters northwest and southeast of the \change[OF]{crater}{impact structure} center. Solid black lines mark the rift faults known in the region: GNF, Gouffre Northwest Fault; SLF, Saint-Laurent fault; CHF, Charlevoix Fault; and SSF, South Shore Fault \citep{Rondot_1971,lamontagne1999}. The inset shows the location of the CSZ in eastern Canada. Earthquake \change[OF]{epicenters}{dataset} from the National Resources Canada catalog for the years 1988-2011.}
 \label{figone}
 \end{figure}
@@ -209,7 +209,7 @@ Velocities are prescribed on the sides perpendicular to the $x$-axis (Fig. \ref{
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=25pc]{Figures/model_geometry.png}
+\includegraphics[width=25pc]{model_geometry.png}
 \caption{(A) Model domain with the \change[OF]{crater}{impact structure} (gray) and crust (red). The three rift faults (black lines), dimensions, boundary conditions and the total amount of displacement are annotated. The outer 10 km-thick layer of crust (green) is added to contain fault edges within the domain, a requirement by PyLith. (B) The orientation of the model domain (red dotted box) and the associated coordinate axes (red arrows) relative to the geographic reference frame. The red dotted box is not the actual model domain but just a box that shows its "orientation." Cyan circles on the geographic map show the inner and outer \change[OF]{crater}{impact structure} boundaries and black solid lines trace rift faults (see Fig. \ref{figone}).}
 \label{figtwo}
 \end{figure}
@@ -219,7 +219,7 @@ We assume linear elasticity for both crust and \change[OF]{crater}{impact struct
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=30pc]{Figures/layered_vel_models.png}
+\includegraphics[width=30pc]{layered_vel_models.png}
 \caption{Velocity models used in this study. Red, blue and black lines are velocity models for the Saguenay region \citep{Somerville1990}, \change[OF]{a standardized velocity}{the Geological Survey of Canada (GSC) standard velocity model} of Eastern Canada \citep{lamontagne1999} and the \add[OF]{Canadian Shield (North Shore)} velocity model of CSZ \citep{lamontagne1999}.}
 \label{figthree}
 \end{figure}
@@ -230,7 +230,7 @@ For simplicity, we assume that the \change[OF]{crater}{impact structure}'s bulk 
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=30pc]{Figures/TOMO_vel_models.png}
+\includegraphics[width=30pc]{TOMO_vel_models.png}
 \caption{Variation of $V_p$ and $V_s$ at the depths from 12 to 14 km from the 3D seismic tomographic model by \citet{Powell_2017}.}
 \label{figfour}
 \end{figure}
@@ -289,7 +289,7 @@ $\phi_{\max}$ at 5 km and 10 km depths is close to 0$^\circ$ within the \change[
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=30pc]{Figures/SNFR25.png}
+\includegraphics[width=30pc]{SNFR25.png}
 \caption{(A) Differential stress ($\sigma_D$) and (B) SH$_{\max}$ orientation ($\phi_{\max}$) in the reference model (SNFR25) at different depths. The value of lithostatic stress at each depth is at the lower right corner of each depth slice in \ref{fig:SNFR25_ref}A. The arrows in \ref{fig:SNFR25_ref}B represent the loading direction for all models. Note the change in scale in \ref{fig:SNFR25_ref}A for depths greater than 10 km. Each figure is 70 $\times$ 70 km.} 
 \label{fig:SNFR25_ref}
 \end{figure} 
@@ -302,7 +302,7 @@ Magnitudes of $\sigma_{D}$ in SD70R25 are smaller in the \change[OF]{crater}{imp
 \begin{figure}[ht]
 \centering
 %\includegraphics[width=25pc]{Figures/SD70R25.png}
-\includegraphics[width=25pc]{Figures/SD70R25_2.png}
+\includegraphics[width=25pc]{SD70R25_2.png}
 \caption{(A) Differential stress ($\sigma_D$), (B) SH$_{\max}$ orientation ($\phi_{\max}$), (C) Percentage change in differential stress  ($\Delta\sigma_{D}^{\prime}$) and (D) the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) in SD70R25 model relative to SNFR25 at various depths. Note the change in scale in \ref{fig:SD70R25}A for depths greater than 10 km. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{fig:SD70R25}C. \add[OF]{The outline of the impact structure is represented as a black circle.} Each figure is 70 $\times$ 70 km.} 
 \label{fig:SD70R25}
 \end{figure}
@@ -317,7 +317,7 @@ Three vertical cross sections of $\Delta\sigma_{D}^{\prime}$ from the SD70R25 mo
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=25pc]{Figures/SD70R25_profiles.png}
+\includegraphics[width=25pc]{SD70R25_profiles.png}
 \caption{NW-SE cross sections through the percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$) solution in the SD70R25 model. Earthquakes within 2 km of each cross section are represented by black dots. The three NW-SE cross sections are indicated on the 10-km depth slice showing earthquakes within 2 km of the depth slice. The outline of the \change[OF]{crater}{impact structure} is represented as black circle and curved lines on the depth slice and cross sections, respectively. The depth slice is 70 $\times$ 70 km centered on the impact \change[OF]{crater}{structure}. Note the cross sections have the same color and length scales as the depth slice in~\ref{fig:profiles_70_70_70_2km}A.}
 \label{fig:profiles_70_70_70_2km}
 \end{figure}
@@ -330,7 +330,7 @@ Correlation between the $\Delta\sigma_{D}^{\prime}$ distribution in SD65R25 and 
 \begin{figure}[ht]
 \centering
 %\includegraphics[width=30pc]{Figures/SD65R25.png}
-\includegraphics[width=30pc]{Figures/SD65R25_2.png}
+\includegraphics[width=30pc]{SD65R25_2.png}
 \caption{Percentage change in differential stress ($\Delta\sigma_{D}^{\prime}$), SH$_{\max}$ orientation ($\phi_{\max})$ and the change in $\phi_{\max}$ ($\Delta\phi_{\max}$) at 10 and 15 km depths from the SD65R25 model. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{fig:eff_of_dips}A. \add[OF]{The outline of the impact structure is represented as a black circle.} Each figure is 70 $\times$ 70 km.}
 \label{fig:eff_of_dips}
 \end{figure}
@@ -345,7 +345,7 @@ The region of increased differential stress in SD65R25 exhibits well-defined lin
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=25pc]{Figures/SD65R25_profiles.png}
+\includegraphics[width=25pc]{SD65R25_profiles.png}
 \caption{Same as Fig. \ref{fig:profiles_70_70_70_2km} but for SD65R25 model.}
 \label{fig:profiles_65_40_40_2km}
 \end{figure}
@@ -359,7 +359,7 @@ While the effects of the \change[OF]{crater}{impact structure} and rift faults a
 \begin{figure}[ht]
 \centering
 %\includegraphics[width=30pc]{Figures/SD70R50_100.png}
-\includegraphics[width=30pc]{Figures/SD70R50_100_2.png}
+\includegraphics[width=30pc]{SD70R50_100_2.png}
 \caption{Same as Fig.~\ref{fig:eff_of_dips} but for the models with different \change[OF]{crater}{impact structure}-crust elastic moduli ratios: (A) SD70R50 and (B) SD70R100.}
 \label{fig:eff_of_moduli_ratio}
 \end{figure}
@@ -385,7 +385,7 @@ $\Delta\sigma_{D}^{\prime}$ approaches zero when $\mu$ values are 0.5 and 0.6, f
 \begin{figure}[ht]
 \centering
 %\includegraphics[width=30pc]{Figures/SD70R25V.png}
-\includegraphics[width=30pc]{Figures/SD70R25V_2.png}
+\includegraphics[width=30pc]{SD70R25V_2.png}
 \caption{Effect of friction coefficient on the $\Delta\sigma_{D}^{\prime}$ and $\phi_{\max}$ in the SD70R25V model at 10 km depth. Note the change in scale for $\mu$ greater than 0.3. Earthquakes within 2 km of each depth slice are represented by black dots in \ref{fig:eff_of_mu}A. \add[OF]{The outline of the impact structure is represented as a black circle.} Each figure is 70 $\times$ 70 km.} 
 \label{fig:eff_of_mu}
 \end{figure}
@@ -403,7 +403,7 @@ Despite the difference in the 1D velocity models of \citet{lamontagne1999} and \
 \begin{figure}[ht]
 \centering
 %\includegraphics[width=20pc]{Figures/LD70R25_TD70.png}
-\includegraphics[width=20pc]{Figures/LD70R25_TD70_2.png}
+\includegraphics[width=20pc]{LD70R25_TD70_2.png}
 \caption{Same as Fig.~\ref{fig:eff_of_dips} but only at a depth of 10 km for (A) LD70R25 and (B) TD70.}
 \label{fig:eff_of_vel}
 \end{figure}
@@ -502,7 +502,7 @@ Findings from this study can be summarized as follows:
 
 %%%%%%%%%%%%%%
 \acknowledgments
-This project is supported by the National Science Foundation (NSF - ICER) under the award title ``EarthCube Building Blocks: Collaborative Proposal: GeoTrust: Improving Sharing and Reproducibility of Geoscience Applications'' with an award number 1639706. We acknowledge the high performance computing (HPC) resource center at the University of Memphis, TN for providing the computing time for this research. \add[OF]{Earthquake dataset are available from Earthquakes Canada, GSC, Earthquake Search (On-line Bulletin), http://earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulleng.php, Natural Resources Canada (1/30/2019).}
+This project is supported by the National Science Foundation (NSF - ICER) under the award title ``EarthCube Building Blocks: Collaborative Proposal: GeoTrust: Improving Sharing and Reproducibility of Geoscience Applications'' with an award number 1639706. We acknowledge the high performance computing (HPC) resource center at the University of Memphis, TN for providing the computing time for this research. \add[OF]{Earthquake dataset are available from Earthquakes Canada, GSC, Earthquake Search (On-line Bulletin), http://earthquakescanada.nrcan.gc.ca/stndon/NEDB-BNDS/bulletin-en.php, Natural Resources Canada (1/30/2019).}
 
 %%%%%%%%%%%%%%
 % Citation
